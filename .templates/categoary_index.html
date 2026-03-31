@@ -1,13 +1,15 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="../css/categoary_index.css">
 <html>
 {% for item in item_list %}
 <div>
-    <div>{{ item.title }}</div>
+    <div class="categoary_info"><div class="categoary_name">{{ item.title }}</div></div>
     {% for post in item.post_list %}
-    <div>
-        <img src="{{ post.preview_url }}">
+    <div class="categoary_img_frame">
+        <img class="categoary_img" src="{{ post.preview_url }}">
     </div>
     {% endfor %}
+    <div style="clear: both;"></div>
 </div>
 {% endfor %}
 

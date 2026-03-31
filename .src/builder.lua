@@ -97,7 +97,7 @@ function M.build_categoary_index(categoary)
             item.post_list = post_list
             local input_data = M.get_task_input_data(task)
             if input_data then
-                for i = 1, 3 do
+                for i = 1, 5 do
                     post_list[#post_list + 1] = input_data[i]
                 end
             end

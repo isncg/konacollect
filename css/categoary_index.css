@@ -1,0 +1,25 @@
+.categoary_img {
+    width: 100%;
+}
+
+.categoary_img_frame {
+    float: left;
+    width: 15%;
+    padding: 0.5%;
+}
+
+.categoary_info {
+    float: left;
+    width: 20%;
+}
+
+.categoary_name {
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    align-content: center;
+    float: right;
+    padding-right: 10%;
+    padding-top: 20%;
+}
