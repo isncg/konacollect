@@ -1,0 +1,352 @@
+[
+    {
+        "id": 86486,
+        "name": "",
+        "count": 1,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 110894,
+        "name": "´",
+        "count": 0,
+        "type": 1,
+        "ambiguous": false
+    },
+    {
+        "id": 111630,
+        "name": "^_^",
+        "count": 10,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 88647,
+        "name": "\u003E_\u003C",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 105120,
+        "name": "|",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 81657,
+        "name": "_",
+        "count": 0,
+        "type": 0,
+        "ambiguous": true
+    },
+    {
+        "id": 97385,
+        "name": ";",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 124336,
+        "name": ";)",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 105638,
+        "name": ":",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 127058,
+        "name": ":\u003C",
+        "count": 2,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 100695,
+        "name": ":)",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 132114,
+        "name": "!",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 82029,
+        "name": "?",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 92488,
+        "name": "???",
+        "count": 0,
+        "type": 1,
+        "ambiguous": false
+    },
+    {
+        "id": 120333,
+        "name": "/",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 83947,
+        "name": ".",
+        "count": 0,
+        "type": 0,
+        "ambiguous": true
+    },
+    {
+        "id": 93185,
+        "name": "...",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 105834,
+        "name": "....",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 90245,
+        "name": "'",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 103133,
+        "name": "(",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 87538,
+        "name": ")",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97890,
+        "name": "]",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 129024,
+        "name": "@_@",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 99983,
+        "name": "@@@",
+        "count": 1,
+        "type": 1,
+        "ambiguous": false
+    },
+    {
+        "id": 88210,
+        "name": "\\",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 118457,
+        "name": "\\||/",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97046,
+        "name": "\u0026",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 89563,
+        "name": "#",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 89550,
+        "name": "#ヘスティア",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 115490,
+        "name": "+",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 82840,
+        "name": "+)",
+        "count": 0,
+        "type": 1,
+        "ambiguous": false
+    },
+    {
+        "id": 95223,
+        "name": "√",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 118665,
+        "name": "✅",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 111211,
+        "name": "＊",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97470,
+        "name": "きぃ",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97471,
+        "name": "にろ",
+        "count": 0,
+        "type": 1,
+        "ambiguous": false
+    },
+    {
+        "id": 114507,
+        "name": "ゆい",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 137655,
+        "name": "🇱🇰",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 99059,
+        "name": "えふぇ",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 115611,
+        "name": "ニーナ",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 123613,
+        "name": "リウム",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 96463,
+        "name": "ＯＢＭ",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97472,
+        "name": "むうてん",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 86773,
+        "name": "カティア",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 86774,
+        "name": "レイトン",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 122985,
+        "name": "いがくせい",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97392,
+        "name": "コ゛りぼて",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 97473,
+        "name": "ともしびあき",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 93390,
+        "name": "ワンパンマン",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    },
+    {
+        "id": 88141,
+        "name": "おかざきみつき",
+        "count": 0,
+        "type": 0,
+        "ambiguous": false
+    }
+]

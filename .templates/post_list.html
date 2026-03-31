@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="{{ doc_root }}js/post.js"></script>
+    <link rel="stylesheet" href="{{ doc_root }}css/post.css">
+</head>
+
+<body>
+    {% for row_index, post_list in line_list %}
+    <div class="img_row">
+        {% for post in post_list %}
+        <div class="img_frame">
+            <button class="img_preview_btn"
+                onClick="show_big_image('big_img_row_{{ row_index }}', '{{ post.file_url }}')">
+                <img class="img_preview" src="{{ post.preview_url }}">
+            </button>
+        </div> {% endfor %}
+        <div class="big_img_row" id="big_img_row_{{ row_index }}"> </div>
+    </div>
+    {% endfor %}
+</body>

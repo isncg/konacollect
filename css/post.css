@@ -1,0 +1,27 @@
+.img_frame {
+    width: 25%;
+    float: left;
+}
+
+.img_preview {
+    width: 100%;
+}
+
+.img_preview_btn {
+    width: 100%;
+    border: none;
+    padding: 1px;
+    background: transparent;
+}
+
+.img_row {
+    clear: both;
+}
+
+.big_img { 
+    width: 100%;
+}
+
+.big_img_row {
+    clear: both;
+}

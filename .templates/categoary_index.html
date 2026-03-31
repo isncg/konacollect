@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{% for item in item_list %}
+<div>
+    <div>{{ item.title }}</div>
+    {% for post in item.post_list %}
+    <div>
+        <img src="{{ post.preview_url }}">
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}
+
+</html>
