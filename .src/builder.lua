@@ -202,7 +202,8 @@ function M.build_categoary_index(categoary, rating)
             output_path = "../" .. categoary.output_dir .. "/" .. rating .. "/index.html"
             doc_root = "../../"
         end
-        local result, error = page_generator.generate_categoary_index(item_list, doc_root)
+        local all_categoary_display_list = M.get_all_categoary_display_list(rating, doc_root)
+        local result, error = page_generator.generate_categoary_index(item_list, doc_root, categoary.title, "Categoary", all_categoary_display_list)
         if error then
             print(error)
         else

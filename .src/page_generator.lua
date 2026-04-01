@@ -41,8 +41,15 @@ M.generate_post_list = function(post_list, doc_root, name, categoary, all_catego
         })
 end
 
-function M.generate_categoary_index(item_list, doc_root)
-    return aspect:render("categoary_index", { item_list = item_list, doc_root = doc_root })
+function M.generate_categoary_index(item_list, doc_root, name, categoary, all_categoary_list)
+    return aspect:render("categoary_index", 
+        { 
+            item_list = item_list, 
+            doc_root = doc_root,
+            name = name,
+            categoary = categoary,
+            all_categoary_list = all_categoary_list
+        })
 end
 
 return M

@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<script src="{{ doc_root }}js/categoary_index.js"></script>
-<link rel="stylesheet" href="{{ doc_root }}css/categoary_index.css">
 <html>
-{% for item in item_list %}
-<button class="btn_select" onclick="select_categoary('{{ item.file }}')">
-    <div class="categoary_info"><div class="categoary_name">{{ item.title }}</div></div>
-    {% for post in item.post_list %}
-    <div class="categoary_img_frame">
-        <img class="categoary_img" src="{{ post.preview_url }}">
-    </div>
+<head>
+    <script src="{{ doc_root }}js/categoary_index.js"></script>
+    <link rel="stylesheet" href="{{ doc_root }}css/categoary_index.css">
+</head>
+<body>
+    {% include "topbar" %}
+    {% for item in item_list %}
+    <button class="btn_select" onclick="select_categoary('{{ item.file }}')">
+        <div class="categoary_info"><div class="categoary_name">{{ item.title }}</div></div>
+        {% for post in item.post_list %}
+        <div class="categoary_img_frame">
+            <img class="categoary_img" src="{{ post.preview_url }}">
+        </div>
+        {% endfor %}
+        <div style="clear: both;"></div>
+    </button>
     {% endfor %}
-    <div style="clear: both;"></div>
-</button>
-{% endfor %}
-
+</body>
 </html>

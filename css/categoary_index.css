@@ -39,3 +39,34 @@ a {
     border: none;
     width: 100%;
 }
+
+.label_name {
+    font-size: 4vw;
+    font-family: "sans-serif";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.label_categoary {
+    font-size: 2vw;
+    font-family: "sans-serif";
+}
+
+.label_group {
+    display: flex;
+    align-items: baseline;
+    gap: 1vw;
+    float: left;
+}
+
+.categoary_link_list {
+    padding-top: 1vw;
+    display: flex;
+    gap: 2vw;
+    float: right;
+}
+
+.categoary_link {
+    font-size: 2vw;
+    font-family: "sans-serif";
+}
