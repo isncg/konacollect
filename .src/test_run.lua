@@ -1,4 +1,5 @@
 local builder = require "builder"
 
--- builder.build_by_index(1)
+builder.disable_http_request = true
+-- builder.build_one_task()
 builder.build_all()

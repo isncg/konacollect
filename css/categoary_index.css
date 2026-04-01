@@ -10,16 +10,16 @@
 
 .categoary_info {
     float: left;
-    width: 20%;
+    width: 30%;
 }
 
 .categoary_name {
-    font-size: 3em;
-    font-family: monospace;
+    font-size: 2vw;
+    font-family: "sans-serif";
     font-weight: bold;
     font-style: italic;
     align-content: center;
     float: right;
-    padding-right: 10%;
-    padding-top: 20%;
+    padding-right: 5%;
+    padding-top: 10%;
 }

@@ -34,8 +34,8 @@ M.generate_post_list = function(post_list, doc_root)
     return aspect:render("post_list", { line_list = post_row_list, doc_root = doc_root })
 end
 
-function M.generate_categoary_index(item_list)
-    return aspect:render("categoary_index", { item_list = item_list })
+function M.generate_categoary_index(item_list, doc_root)
+    return aspect:render("categoary_index", { item_list = item_list, doc_root = doc_root })
 end
 
 return M
