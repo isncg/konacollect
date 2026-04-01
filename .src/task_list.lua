@@ -31,7 +31,10 @@ local function task(name_tag, title, request_tags)
 end
 
 return {
-    { build_list = { { request_tags = {}, title = "Recent Posts", file = "index" } } },
+    {
+        title = "Home",
+        build_list = { { request_tags = {}, title = "Recent Posts", file = "index" } }
+    },
     {
         title = "Artist",
         output_dir = "artist",

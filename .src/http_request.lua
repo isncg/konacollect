@@ -15,7 +15,7 @@ local M = {}
 
 
 function M.request_post(rating, tags, download_path)
-    local url = base_url .. "?tags=" .. enums.PostRatingTag[rating]
+    local url = base_url .. "?limit=100&tags=" .. enums.PostRatingTag[rating]
     if tags and #tags > 0 then
         for i = 1, #tags do
             url = url .. "%20" .. tags[i]

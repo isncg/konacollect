@@ -68,6 +68,49 @@ function M.get_task_input_data(task, rating)
     return input_data
 end
 
+function M.get_all_categoary_display_list(rating, doc_root)
+    if not rating then
+        rating = "s"
+    end
+    local categoary_display_list_cache = M.categoary_display_list_cache
+    if categoary_display_list_cache then
+        local doc_root_dict = categoary_display_list_cache[rating]
+        if doc_root_dict then
+            local list = doc_root_dict[doc_root]
+            if list then
+                return list
+            end
+        end
+    end
+    local result = {}
+    for _, categoary in ipairs(task_list) do
+        local dir_list = {}
+        local output_dir = categoary.output_dir
+        if output_dir then
+            dir_list[#dir_list + 1] = output_dir
+        end
+        if rating ~= "s" then
+            dir_list[#dir_list + 1] = rating
+        end
+        dir_list[#dir_list + 1] = "index.html"
+        result[#result + 1] = {
+            title = categoary.title,
+            href = doc_root .. table.concat(dir_list, "/"),
+        }
+    end
+    if not categoary_display_list_cache then
+        categoary_display_list_cache = {}
+        M.categoary_display_list_cache = categoary_display_list_cache
+        local doc_root_dict = categoary_display_list_cache[rating]
+        if not doc_root_dict then
+            doc_root_dict = {}
+            categoary_display_list_cache[rating] = doc_root_dict
+        end
+        doc_root_dict[doc_root] = result
+    end
+    return result
+end
+
 function M.build_task_with_rating(task, categoary, rating)
     if not rating then
         rating = "s"
@@ -83,27 +126,24 @@ function M.build_task_with_rating(task, categoary, rating)
         if not input_data then
             return
         end
-        local output_path
-        local doc_root = "../"
-        local categoary_output_dir = categoary.output_dir
-        if categoary_output_dir then
-            if rating == "s" then
-                output_path = "../" .. categoary_output_dir .. "/" .. task.file .. ".html"
-                doc_root = "../"
-            else
-                output_path = "../" .. categoary_output_dir .. "/" .. rating .. "/" .. task.file .. ".html"
-                doc_root = "../../"
-            end
-        else
-            if rating == "s" then
-                output_path = "../" .. task.file .. ".html"
-                doc_root = "./"
-            else
-                output_path = "../" .. rating .. "/" .. task.file .. ".html"
-                doc_root = "../"
-            end
+        local output_dir = categoary.output_dir
+        local doc_root = output_dir and
+            (rating == "s" and "../" or "../../") or
+            (rating == "s" and "./" or "../")
+
+        local dir_list = {}
+        dir_list[#dir_list + 1] = output_dir
+        if rating ~= "s" then
+            dir_list[#dir_list + 1] = rating
         end
-        local result, error = page_generator.generate_post_list(input_data, doc_root, "post_list")
+        dir_list[#dir_list + 1] = task.file .. ".html"
+        local output_path = "../" .. table.concat(dir_list, "/")
+
+        local all_categoary_display_list = M.get_all_categoary_display_list(rating, doc_root)
+        local result, error = page_generator.generate_post_list(input_data, doc_root,
+            task.title,
+            categoary.title,
+            all_categoary_display_list)
         if error then
             print(error)
         else
@@ -137,11 +177,15 @@ function M.build_categoary_index(categoary, rating)
     if output_dir then
         local item_list = {}
         for _, task in ipairs(categoary.build_list) do
-            local item = {}
-            item_list[#item_list + 1] = item
-            item.title = task.title
             local post_list = {}
-            item.post_list = post_list
+            local item = {
+                title = task.title,
+                file = task.file,
+                post_list = post_list,
+            }
+            item_list[#item_list + 1] = item
+            -- item.title = task.title
+            -- item.post_list = post_list
             local input_data = M.get_task_input_data(task, rating)
             if input_data then
                 for i = 1, 4 do

@@ -1,10 +1,22 @@
 <!DOCTYPE html>
+
 <head>
     <script src="{{ doc_root }}js/post_list.js"></script>
     <link rel="stylesheet" href="{{ doc_root }}css/post_list.css" />
 </head>
 
 <body>
+    <div class="topbar">
+        <div class="label_group">
+            <div class="label_name">{{ name }}</div>
+            <div class="label_categoary">{{ categoary }}</div>
+        </div>
+        <div class="categoary_link_list">
+            {% for category in all_categoary_list %}
+            <a class="categoary_link" href="{{ category.href }}">{{ category.title }}</a>
+            {% endfor %}
+        </div>
+    </div>
     {% for row_index, post_list in line_list %}
     <div class="img_row">
         {% for post in post_list %}

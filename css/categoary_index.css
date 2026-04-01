@@ -1,3 +1,12 @@
+body {
+    background: #222222;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
 .categoary_img {
     width: 100%;
 }
@@ -22,4 +31,11 @@
     float: right;
     padding-right: 5%;
     padding-top: 10%;
+    color: white;
+}
+
+.btn_select {
+    background: transparent;
+    border: none;
+    width: 100%;
 }

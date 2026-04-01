@@ -14,7 +14,7 @@ end
 
 local M = {}
 
-M.generate_post_list = function(post_list, doc_root)
+M.generate_post_list = function(post_list, doc_root, name, categoary, all_categoary_list)
     local post_row_list = {}
     local row_index = 0
     for i = 1, #post_list do
@@ -31,7 +31,14 @@ M.generate_post_list = function(post_list, doc_root)
         post_row[#post_row + 1] = post
     end
 
-    return aspect:render("post_list", { line_list = post_row_list, doc_root = doc_root })
+    return aspect:render("post_list",
+        {
+            line_list = post_row_list,
+            doc_root = doc_root,
+            name = name,
+            categoary = categoary,
+            all_categoary_list = all_categoary_list
+        })
 end
 
 function M.generate_categoary_index(item_list, doc_root)
