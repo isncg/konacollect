@@ -1,0 +1,50 @@
+on: [push]
+jobs:
+  update_site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup git
+        run: |
+          git config --global user.email "isn_cg@163.com"
+          git config --global user.name "isncg_ci"
+
+      - name: install lua5.4 liblua5.4-dev luarocks libssl-dev
+        run: sudo apt install lua5.4 liblua5.4-dev luarocks libssl-dev
+        
+      - name: Install luafilesystem
+        run: sudo luarocks install luafilesystem --lua-version 5.4
+        
+      - name: Install luasocket
+        run: sudo luarocks install luasocket --lua-version 5.4
+        
+      - name: Install luasec
+        run: sudo luarocks install luasec --lua-version 5.4
+        
+      - name: Install lua-cjson
+        run: sudo luarocks install lua-cjson --lua-version 5.4
+        
+      - name: Install aspect
+        run: sudo luarocks install aspect --lua-version 5.4
+        
+      - name: Install inspect
+        run: sudo luarocks install inspect --lua-version 5.4
+        
+      - name: Clone konachan100.github.io
+        uses: sudosubin/git-clone-action@v1.0.1
+
+      - name: Build
+        run: |
+          cd .src
+          lua5.4 test_run.lua
+          cd ..
+
+      - name: Commit git change
+        run: |
+          git add --all .
+          git commit -m "Github CI update"
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      
