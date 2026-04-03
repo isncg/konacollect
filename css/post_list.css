@@ -24,6 +24,7 @@ a {
 }
 
 .img_row {
+    width: 100%;
     clear: both;
 }
 
@@ -35,33 +36,41 @@ a {
     clear: both;
 }
 
-.label_name {
+.title {
     font-size: 4vw;
-    font-family: "sans-serif";
+    font-family: "serif";
     font-weight: bold;
-    font-style: italic;
 }
 
-.label_categoary {
+.subtitle {
     font-size: 2vw;
     font-family: "sans-serif";
 }
 
-.label_group {
+.title_group {
     display: flex;
     align-items: baseline;
     gap: 1vw;
     float: left;
 }
 
-.categoary_link_list {
+.permalink_list {
     padding-top: 1vw;
     display: flex;
     gap: 2vw;
-    float: right;
+    justify-content: center;
 }
 
-.categoary_link {
+.permalink {
     font-size: 2vw;
     font-family: "sans-serif";
+}
+
+.logo_group {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 70%;
 }

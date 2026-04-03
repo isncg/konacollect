@@ -14,7 +14,7 @@ end
 
 local M = {}
 
-M.generate_post_list = function(post_list, doc_root, name, categoary, all_categoary_list)
+M.generate_post_list = function(post_list, doc_root, title, subtitle, permalinks)
     local post_row_list = {}
     local row_index = 0
     for i = 1, #post_list do
@@ -35,20 +35,20 @@ M.generate_post_list = function(post_list, doc_root, name, categoary, all_catego
         {
             line_list = post_row_list,
             doc_root = doc_root,
-            name = name,
-            categoary = categoary,
-            all_categoary_list = all_categoary_list
+            title = title,
+            subtitle = subtitle,
+            permalinks = permalinks
         })
 end
 
-function M.generate_categoary_index(item_list, doc_root, name, categoary, all_categoary_list)
-    return aspect:render("categoary_index", 
-        { 
-            item_list = item_list, 
+function M.generate_subscribe_index(item_list, doc_root, title, subtitle, permalinks)
+    return aspect:render("categoary_index",
+        {
+            item_list = item_list,
             doc_root = doc_root,
-            name = name,
-            categoary = categoary,
-            all_categoary_list = all_categoary_list
+            title = title,
+            subtitle = subtitle,
+            permalinks = permalinks
         })
 end
 

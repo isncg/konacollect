@@ -5,12 +5,46 @@ local task_list = require "task_list"
 local page_generator = require "page_generator"
 local http_request = require "http_request"
 
+local function s_split(s, delimiter)
+    local result = {}
+    local from = 1
+    local f, t = string.find(s, delimiter, from, true)
+    while f do
+        table.insert(result, string.sub(s, from, f - 1))
+        from = t + 1
+        f, t = string.find(s, delimiter, from, true)
+    end
+    table.insert(result, string.sub(s, from))
+    return result
+end
+
 local M = {}
+
+function M.convert_task(task)
+    local one_tag = task.one_tag
+    if one_tag then
+        if not task.request_tags then
+            task.request_tags = { one_tag }
+        end
+        if not task.title then
+            local sp = s_split(one_tag, "_")
+            for i, s in ipairs(sp) do
+                sp[i] = string.gsub(s, "^%l", string.upper)
+            end
+            task.title = table.concat(sp, " ")
+        end
+        if not task.file then
+            task.file = one_tag
+        end
+        task.one_tag = nil
+    end
+end
 
 function M.create_build_task_list()
     local build_task_list = {}
     for _, categoary in ipairs(task_list) do
         for _, task in ipairs(categoary.build_list) do
+            M.convert_task(task)
             build_task_list[#build_task_list + 1] = { task = task, categoary = categoary }
         end
     end
@@ -41,6 +75,7 @@ function M.get_task_and_categoary_by_index(index)
 end
 
 function M.get_task_input_cache_data(task, rating)
+    M.convert_task(task)
     local cache_dict = task.__input_cache_dict
     if cache_dict then
         return cache_dict[rating]
@@ -48,6 +83,7 @@ function M.get_task_input_cache_data(task, rating)
 end
 
 function M.set_task_input_cache_data(task, rating, data)
+    M.convert_task(task)
     local cache_dict = task.__input_cache_dict
     if not cache_dict then
         cache_dict = {}
@@ -57,6 +93,7 @@ function M.set_task_input_cache_data(task, rating, data)
 end
 
 function M.get_task_input_data(task, rating)
+    M.convert_task(task)
     local cached_data = M.get_task_input_cache_data(task, rating)
     if cached_data then
         return cached_data
@@ -68,7 +105,7 @@ function M.get_task_input_data(task, rating)
     return input_data
 end
 
-function M.get_all_categoary_display_list(rating, doc_root)
+function M.get_permalinks(rating, doc_root)
     if not rating then
         rating = "s"
     end
@@ -112,6 +149,7 @@ function M.get_all_categoary_display_list(rating, doc_root)
 end
 
 function M.build_task_with_rating(task, categoary, rating)
+    M.convert_task(task)
     if not rating then
         rating = "s"
     end
@@ -139,11 +177,11 @@ function M.build_task_with_rating(task, categoary, rating)
         dir_list[#dir_list + 1] = task.file .. ".html"
         local output_path = "../" .. table.concat(dir_list, "/")
 
-        local all_categoary_display_list = M.get_all_categoary_display_list(rating, doc_root)
+        local permalinks = M.get_permalinks(rating, doc_root)
         local result, error = page_generator.generate_post_list(input_data, doc_root,
             task.title,
-            categoary.title,
-            all_categoary_display_list)
+            task.subtitle or categoary.title,
+            permalinks)
         if error then
             print(error)
         else
@@ -169,54 +207,55 @@ function M.build_one_task(build_index)
     M.build_categoary_index(categoary, "e")
 end
 
-function M.build_categoary_index(categoary, rating)
+function M.build_categoary_index(subscribe, rating)
     if not rating then
         rating = "s"
     end
-    local output_dir = categoary.output_dir
-    if output_dir then
-        local item_list = {}
-        for _, task in ipairs(categoary.build_list) do
-            local post_list = {}
-            local item = {
-                title = task.title,
-                file = task.file,
-                post_list = post_list,
-            }
-            item_list[#item_list + 1] = item
-            -- item.title = task.title
-            -- item.post_list = post_list
-            local input_data = M.get_task_input_data(task, rating)
-            if input_data then
-                for i = 1, 4 do
-                    post_list[#post_list + 1] = input_data[i]
-                end
+    local output_dir = subscribe.output_dir
+    local item_list = {}
+    for _, task in ipairs(subscribe.build_list) do
+        M.convert_task(task)
+        local post_list = {}
+        local item = {
+            title = task.title,
+            file = task.file,
+            post_list = post_list,
+        }
+        item_list[#item_list + 1] = item
+        -- item.title = task.title
+        -- item.post_list = post_list
+        local input_data = M.get_task_input_data(task, rating)
+        if input_data then
+            for i = 1, 4 do
+                post_list[#post_list + 1] = input_data[i]
             end
         end
-        local output_path
-        local doc_root
-        if rating == "s" then
-            output_path = "../" .. categoary.output_dir .. "/index.html"
-            doc_root = "../"
-        else
-            output_path = "../" .. categoary.output_dir .. "/" .. rating .. "/index.html"
-            doc_root = "../../"
-        end
-        local all_categoary_display_list = M.get_all_categoary_display_list(rating, doc_root)
-        local result, error = page_generator.generate_categoary_index(item_list, doc_root, categoary.title, "Categoary", all_categoary_display_list)
-        if error then
-            print(error)
-        else
-            print(categoary.title .. " -> " .. output_path)
-            file_utils.write(output_path, tostring(result))
-            -- io.open(output_path, "w"):write(tostring(result))
-        end
+    end
+
+    local doc_root = output_dir and
+        (rating == "s" and "../" or "../../") or
+        (rating == "s" and "./" or "../")
+
+
+    local output_path = output_dir and
+        (rating == "s" and "../" .. output_dir .. "/index.html" or "../" .. output_dir .. "/" .. rating .. "/index.html") or
+        (rating == "s" and "../index.html" or "../" .. rating .. "/index.html")
+
+    local permalinks = M.get_permalinks(rating, doc_root)
+    local result, error = page_generator.generate_subscribe_index(item_list, doc_root, subscribe.title, "", permalinks)
+    if error then
+        print(error)
+    else
+        print(subscribe.title .. " -> " .. output_path)
+        file_utils.write(output_path, tostring(result))
+        -- io.open(output_path, "w"):write(tostring(result))
     end
 end
 
 function M.build_all()
     for _, categoary in ipairs(task_list) do
         for _, task in ipairs(categoary.build_list) do
+            M.convert_task(task)
             M.build_task_with_rating(task, categoary, "s")
             M.build_task_with_rating(task, categoary, "q")
             M.build_task_with_rating(task, categoary, "e")

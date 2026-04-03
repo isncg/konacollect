@@ -7,14 +7,18 @@
 <body>
     {% include "topbar" %}
     {% for item in item_list %}
-    <button class="btn_select" onclick="select_categoary('{{ item.file }}')">
-        <div class="categoary_info"><div class="categoary_name">{{ item.title }}</div></div>
-        {% for post in item.post_list %}
-        <div class="categoary_img_frame">
-            <img class="categoary_img" src="{{ post.preview_url }}">
+    <button class="subscribe_item" onclick="select_categoary('{{ item.file }}')">
+        <div class="subscribe_item_info"><div class="subscribe_item_name">{{ item.title }}</div></div>
+        <div class="img_row">
+            {% for post in item.post_list %}
+            <div class="img_frame">
+                <div class="img_preview_btn">
+                    <img class="subscribe_img" src="{{ post.preview_url }}">
+                </div>
+            </div>
+            {% endfor %}
+            <div style="clear: both;"></div>
         </div>
-        {% endfor %}
-        <div style="clear: both;"></div>
     </button>
     {% endfor %}
 </body>
