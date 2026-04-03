@@ -198,7 +198,7 @@ function M.build_one_task(build_index)
         build_index = time // 300
     end
     local build_task, categoary, real_index, task_count = M.get_task_and_categoary_by_index(build_index)
-    print("build_one_task: ", build_index, real_index, time, task_count)
+    print("build_one_task: ", real_index, task_count, time)
     M.build_task_with_rating(build_task, categoary, "s")
     M.build_task_with_rating(build_task, categoary, "q")
     M.build_task_with_rating(build_task, categoary, "e")

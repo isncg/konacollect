@@ -28,6 +28,9 @@ jobs:
         
       - name: Install inspect
         run: sudo luarocks install inspect --lua-version 5.4
+
+      - name: Install argparse
+        run: sudo luarocks install argparse --lua-version 5.4
         
       - name: Clone konachan100.github.io
         uses: sudosubin/git-clone-action@v1.0.1
