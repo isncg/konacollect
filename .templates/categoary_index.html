@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
     <script src="{{ doc_root }}js/categoary_index.js"></script>
     <link rel="stylesheet" href="{{ doc_root }}css/categoary_index.css">
 </head>
+
 <body>
     {% include "topbar" %}
     {% for item in item_list %}
     <button class="subscribe_item" onclick="select_categoary('{{ item.file }}')">
-        <div class="subscribe_item_info"><div class="subscribe_item_name">{{ item.title }}</div></div>
+        <div class="subscribe_item_info">
+            <div class="subscribe_item_name">{{ item.title }}</div>
+        </div>
         <div class="img_row">
             {% for post in item.post_list %}
             <div class="img_frame">
@@ -22,4 +28,5 @@
     </button>
     {% endfor %}
 </body>
+
 </html>
