@@ -57,7 +57,7 @@ return {
             { one_tag = "princess_connect!" },
             { one_tag = "hyouka" },
             { one_tag = "blue_archive" },
-            { request_tags = { "honkai:_star_rail" },                  title = "Nekopara Game CG",         file = "honkai_star_rail" },
+            { request_tags = { "honkai:_star_rail" },                  title = "Honkai: Star Rail",         file = "honkai_star_rail" },
             { request_tags = { "nekopara", "game_cg" },                title = "Nekopara Game CG",         file = "nekopara_gamecg" },
         }
     },
