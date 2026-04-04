@@ -35,7 +35,7 @@ function M.request_post(rating, tags, download_path)
             ["User-Agent"] =
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
             ["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            ["Cookie"] = "cf_clearance=Q3yvta18oaDwJw0Iu5GV6azYaLra5akP1wuE8GA.L9k-1774936683-1.2.1.1-FBofSkX8Jm4gHfwVDYEOw0HG_o64jmOpB.IPlv5Jjis2xRnHq44C26oiRZvv4pAa3PaFOyo3od8_mB53LxMQU9j9bGXh0wnzyJ5rpFOc2HTDK8cYwovynECjcGKUe1jo5ts4b2yFreBRX0m3RutOHcAY8imwCWu5J9YWRIpqHr5pmsBNypFSMpjW7z89NPDWqJUIgBvKOSN2lDyiuOIMV46yp2SeZpyv8E8eArj_MQKj7AaFXNjHvwxTmy6_.v.x"
+            -- ["Cookie"] = "cf_clearance=Q3yvta18oaDwJw0Iu5GV6azYaLra5akP1wuE8GA.L9k-1774936683-1.2.1.1-FBofSkX8Jm4gHfwVDYEOw0HG_o64jmOpB.IPlv5Jjis2xRnHq44C26oiRZvv4pAa3PaFOyo3od8_mB53LxMQU9j9bGXh0wnzyJ5rpFOc2HTDK8cYwovynECjcGKUe1jo5ts4b2yFreBRX0m3RutOHcAY8imwCWu5J9YWRIpqHr5pmsBNypFSMpjW7z89NPDWqJUIgBvKOSN2lDyiuOIMV46yp2SeZpyv8E8eArj_MQKj7AaFXNjHvwxTmy6_.v.x"
         }, -- 添加自定义头
         sink = ltn12.sink.file(file)
     }
