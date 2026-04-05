@@ -1,4 +1,5 @@
 local https = require "ssl.https"
+local http = require "socket.http"
 local ltn12 = require "ltn12"
 local inspect = require "inspect"
 local file_utils = require "file_utils"
@@ -29,7 +30,7 @@ function M.request_post(rating, tags, download_path)
     end
 
     print("request: " .. url)
-    local response, status = https.request {
+    local response, status = http.request {
         url = url,
         headers = {
             ["User-Agent"] =
