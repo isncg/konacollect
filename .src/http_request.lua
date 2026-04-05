@@ -8,7 +8,7 @@ local io = require "io"
 local enums = require "enums"
 
 
-local base_url = "http://konachan.net/post.json"
+local base_url = "http://www.konachan.net/post.json"
 local temp_download_path = ".tempdownload.json"
 
 local M = {}
