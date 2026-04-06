@@ -8,7 +8,7 @@ local io = require "io"
 local enums = require "enums"
 
 
-local base_url = "http://www.konachan.net/post.json"
+local base_url = "https://www.konachan.net/post.json"
 local temp_download_path = ".tempdownload.json"
 
 local M = {}
@@ -30,13 +30,13 @@ function M.request_post(rating, tags, download_path)
     end
 
     print("request: " .. url)
-    local response, status = http.request {
+    local response, status = https.request {
         url = url,
         headers = {
             ["User-Agent"] =
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0",
             ["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            -- ["Cookie"] = "cf_clearance=Q3yvta18oaDwJw0Iu5GV6azYaLra5akP1wuE8GA.L9k-1774936683-1.2.1.1-FBofSkX8Jm4gHfwVDYEOw0HG_o64jmOpB.IPlv5Jjis2xRnHq44C26oiRZvv4pAa3PaFOyo3od8_mB53LxMQU9j9bGXh0wnzyJ5rpFOc2HTDK8cYwovynECjcGKUe1jo5ts4b2yFreBRX0m3RutOHcAY8imwCWu5J9YWRIpqHr5pmsBNypFSMpjW7z89NPDWqJUIgBvKOSN2lDyiuOIMV46yp2SeZpyv8E8eArj_MQKj7AaFXNjHvwxTmy6_.v.x"
+            ["Cookie"] = "cf_clearance=NL3hr6ID.wubrYSoRt5RvC5wCOj5QvnWcGgvm6b.2fo-1775517335-1.2.1.1-nmGrRyTaWUq6x34eQ_sz2eSJfy5jYGX7YPu3NoKsVD2zjFGbS1NEv0kAEg56mtomamXZ_SKBYGUr_zfYvOHajJI0zq9otfMNnNDpxGQattVpG9r1apDnZRXHBkxpGjRglSQ4j0e0QVPbPjQvTiIQkTYuEuVUp8DwwKP.qynsenF1GsDSXs4vnMuxUujrsBkK7STOG3HiIoB9mjAYnUYJir6985_evELz7SK0lGpzvupoLKaIuohAobAiA_TWmHNGWFUtCXwlsy71pObV8j5MFJKtAViYZSh3W4IO2Ox6G8tv2VYC_fhi8hIr2IyAdfN7bVGlXdjwA4.vsu8uIEv4InPnv9zLTGA3rDmyO6Rty800FCqgOqiOLEABBMJrnSv.dGpcQawQWMaEbxzkRg21Y3VbFGdduozGpoDzYo_w9LU"
         }, -- 添加自定义头
         sink = ltn12.sink.file(file)
     }
