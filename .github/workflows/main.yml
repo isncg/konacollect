@@ -29,7 +29,6 @@ jobs:
               print(f"Public IP: {ip}")
               print(f"Location: {city}, {region}, {country}")
               print(f"Coordinates: {loc}")
-          EOF 
 
       - name: install lua5.4 liblua5.4-dev luarocks libssl-dev
         run: sudo apt install lua5.4 liblua5.4-dev luarocks libssl-dev
