@@ -34,9 +34,9 @@ function M.request_post(rating, tags, download_path)
         url = url,
         headers = {
             ["User-Agent"] =
-            "Mozilla/5.0 (X11; Linux x86_64; rv:150.0) Gecko/20100101 Firefox/150.0",
+            "Mozilla/5.0 (Android 14; Mobile; rv:150.0) Gecko/150.0 Firefox/150.0",
             ["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            ["Cookie"] = "cf_clearance=NL3hr6ID.wubrYSoRt5RvC5wCOj5QvnWcGgvm6b.2fo-1775517335-1.2.1.1-nmGrRyTaWUq6x34eQ_sz2eSJfy5jYGX7YPu3NoKsVD2zjFGbS1NEv0kAEg56mtomamXZ_SKBYGUr_zfYvOHajJI0zq9otfMNnNDpxGQattVpG9r1apDnZRXHBkxpGjRglSQ4j0e0QVPbPjQvTiIQkTYuEuVUp8DwwKP.qynsenF1GsDSXs4vnMuxUujrsBkK7STOG3HiIoB9mjAYnUYJir6985_evELz7SK0lGpzvupoLKaIuohAobAiA_TWmHNGWFUtCXwlsy71pObV8j5MFJKtAViYZSh3W4IO2Ox6G8tv2VYC_fhi8hIr2IyAdfN7bVGlXdjwA4.vsu8uIEv4InPnv9zLTGA3rDmyO6Rty800FCqgOqiOLEABBMJrnSv.dGpcQawQWMaEbxzkRg21Y3VbFGdduozGpoDzYo_w9LU"
+            ["Cookie"] = "cf_clearance=lHIRBDYd77Eg4pHKDdwJHv18eNIOpCtboM.f.92BrlY-1775523505-1.2.1.1-9yB9EioIxJhM0..eu_FLF_DXWGQBFiMK4N3zkWmXa_y5H_QAV3OatuizljRUVrBIhZqf7W9xocgD.lOFihuiuhgtpHyX16q215YBp5ClqDOVExW_DF.5oCvT7jnsor3a22dp9JvkUmxR1eD3xZA5.2AhHFDuFOOHoZ.ays3AzAnI0zGA1n._MxbtiOKGmAfm8zwCRPVbtbjuEWWmqWq_Vu2poCu18f4pk4Tp7.cFr7UoWcSeItB0QAK8BuOtNYMIvvj7XXCMnxtQugaS20b2HQmTMQyU2psKP2QfS6Y2GU5mYfr3O_cakLA4PFQWF2d4_Fus0zfeUyuPKw6opC1spw"
         }, -- 添加自定义头
         sink = ltn12.sink.file(file)
     }
