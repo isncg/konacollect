@@ -11,6 +11,7 @@ return {
         output_dir = "artist",
         build_list = {
             { one_tag = "anmi" },
+            { one_tag = "asou_(asabu202)" },
             { one_tag = "ke-ta",                    title = "Ke-Ta" },
             { one_tag = "mivit" },
             { one_tag = "miyase_mahiro" },
