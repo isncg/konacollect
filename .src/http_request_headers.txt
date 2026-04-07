@@ -1,15 +1,3 @@
-Host: konachan.net
 User-Agent: Mozilla/5.0 (Android 14; Mobile; rv:150.0) Gecko/150.0 Firefox/150.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: zh-CN
-Accept-Encoding: gzip, deflate, br, zstd
-Referer: https://konachan.net/post.json?__cf_chl_tk=OEYc5BKO09O2.Cea20GJhWvOAKcvCjzCgnTIShjwbbo-1775525286-1.0.1.1-eZH6rfbTLsGRFkuC7hB0qK4XvxQJrZ9XCoQArGRBzoU
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 2051
-Origin: https://konachan.net
-Connection: keep-alive
-Cookie: cf_clearance=RBaltGM1wWVJf25XH9ioyOBNIItZH7aTgAXoUqosbys-1775525292-1.2.1.1-kdXVMXDggBWWrZCiu3KyFXlhJhQ925C8MBOAHq0srpevmgV6Vdxb9MJmOyMvYroi4zxHR4aJQeL5ML8h4wFxfJUmH8i6p8B_pdOwOTCeX2zAXCWQ6XsqD5aoBWksKDVVNmEHYOC1_nYah1CdOGlX5sr3JlvWCwZoIMx8.YNWh3HGl.GiWAoz_KXogoC3yb6aW_n_4j2VRmx.MbCW49yCNaw1dh_rQ5MH7wTiVH5vdp7kQTRIXlyjTqKlQ0qD2bzL3ONQT2JpR7bi4vYVrTW7HrmWw8HsdfojGXpyrzAKeL_DQzyo6UEIgYBouqq.oJm3kcrDqMPmBxKEvSi1_qDNrw; __utma=20658210.310265880.1775458003.1775517192.1775523505.4; __utmz=20658210.1775458003.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=20658210; forum_post_last_read_at=%222026-04-07T02%3A58%3A24%2B02%3A00%22; country=--; blacklisted_tags=%5B%22%22%5D; konachan.net=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTE3YzFhZjliMzA3YzM2MmQ5NTNlY2E0ZjczYWU0ZTlhBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWdHL1BvVXZaYWpESk83WlpCZ0l1SXN4UlJLUjdLSmFqNFcvQmIxaEVGYzQ9BjsARg%3D%3D--bb48b2a4e7f681bf81c900dcbdce43e0ad9d6042; __utmb=20658210.1.10.1775523505
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
+Cookie: cf_clearance=84s3AULl1jaEdYUutUq3ZlH.cFIQA8VeCjPX9BmhSxA-1775567255-1.2.1.1-iUuk4HRoQw72bY8zBQXeOaNV5UkElOVXlfC9O3y9EQk.9XwWRiYFUDMtrZ03Ey3xAYzoGrHk5q1CGUM98A1uP8.0XBgtmngXThySFN_3Q6bavuVdk8fGGhuQTJtelD1l_5Y53tZ0W5MZuR125Ip1UDwJCrEv_WJ1qsbdfp8M2M75KDjkZSRij7zKib8Ih50.re9cTQv04u__sUc9cgajNz9H35XEYgaVMs79IgVC.zpcd66LImFDIZHo9m.PBrXCRnELgk2U4WmgvALJa5xYA5P.h9S_hOO0P3yLdI5p7Cghvf35peEKGpw7QjG1Oy7wh49yhYBM9RuSWbpMvjfWYA; __utma=20658210.310265880.1775458003.1775517192.1775523505.4; __utmz=20658210.1775458003.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)

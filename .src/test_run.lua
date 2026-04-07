@@ -20,6 +20,6 @@ if args.all then
     builder.build_all()
 else
     print("Build one task", args.task, args.index)
-    builder.build_one_task(args.index, args.task)
+    builder.build_one_task(args.index and tonumber(args.index), args.task)
 end
 
