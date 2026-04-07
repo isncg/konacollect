@@ -12,6 +12,13 @@ a {
     float: left;
 }
 
+/* 针对手机屏幕 */
+@media (max-width: 768px) {
+  .img_frame {
+    width: 50%;
+  }
+}
+
 .img_preview {
     width: 100%;
 }
