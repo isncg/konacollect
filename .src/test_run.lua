@@ -1,6 +1,8 @@
 local builder = require "builder"
 local argparse = require "argparse"
 
+builder.load_tags()
+
 local parser = argparse()
 parser:flag("-a --all", "Build all")
 parser:flag("-r --rebuild", "Rebuild with cached data")

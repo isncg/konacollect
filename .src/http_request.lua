@@ -13,7 +13,22 @@ local temp_download_path = ".tempdownload.json"
 
 local M = {}
 
-
+function M.init_request_headers()
+    -- read 'http_request_headers.txt'
+    local file = io.open("http_request_headers.txt", "r")
+    if file then
+        local headers = {}
+        for line in file:lines() do
+            local key, value = line:match("^(%S+): (.+)$")
+            if key and value then
+                headers[key] = value
+            end
+        end
+        file:close()
+        print("init_request_headers", inspect.inspect(headers))
+        M.headers = headers
+    end
+end
 
 function M.request_post(rating, tags, download_path)
     local url = base_url .. "?limit=100&tags=" .. enums.PostRatingTag[rating]
@@ -32,12 +47,7 @@ function M.request_post(rating, tags, download_path)
     print("request: " .. url)
     local response, status = https.request {
         url = url,
-        headers = {
-            ["User-Agent"] =
-            "Mozilla/5.0 (Android 14; Mobile; rv:150.0) Gecko/150.0 Firefox/150.0",
-            ["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            ["Cookie"] = "cf_clearance=lHIRBDYd77Eg4pHKDdwJHv18eNIOpCtboM.f.92BrlY-1775523505-1.2.1.1-9yB9EioIxJhM0..eu_FLF_DXWGQBFiMK4N3zkWmXa_y5H_QAV3OatuizljRUVrBIhZqf7W9xocgD.lOFihuiuhgtpHyX16q215YBp5ClqDOVExW_DF.5oCvT7jnsor3a22dp9JvkUmxR1eD3xZA5.2AhHFDuFOOHoZ.ays3AzAnI0zGA1n._MxbtiOKGmAfm8zwCRPVbtbjuEWWmqWq_Vu2poCu18f4pk4Tp7.cFr7UoWcSeItB0QAK8BuOtNYMIvvj7XXCMnxtQugaS20b2HQmTMQyU2psKP2QfS6Y2GU5mYfr3O_cakLA4PFQWF2d4_Fus0zfeUyuPKw6opC1spw"
-        }, -- 添加自定义头
+        headers = M.headers, -- 添加自定义头
         sink = ltn12.sink.file(file)
     }
 

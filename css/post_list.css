@@ -29,14 +29,21 @@ a {
     grid-template-columns: repeat(4, 1fr)
 }
 
+.big_img {
+    width: 70%;
+    padding-left: 15%;
+}
+
+
 @media (max-width: 1200px) {
     .img_row {
         grid-template-columns: repeat(2, 1fr)
     }
-}
 
-.big_img {
-    width: 100%;
+    .big_img {
+        width: 100%;
+        padding-left: 0;
+    }
 }
 
 .big_img_row {
@@ -80,4 +87,21 @@ a {
 
 .logo {
     width: 70%;
+}
+
+.meta_data_name {
+    font-size: 2vw;
+    font-family: "sans-serif";
+    font-weight: bold;
+}
+
+.tag_name {
+    font-size: 2vw;
+    font-family: "sans-serif";
+    padding-left: 1vw;
+}
+
+.meta_data_value {
+    font-size: 2vw;
+    font-family: "sans-serif";
 }

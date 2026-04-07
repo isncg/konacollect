@@ -4,6 +4,9 @@ local cjson = require "cjson"
 local task_list = require "task_list"
 local page_generator = require "page_generator"
 local http_request = require "http_request"
+local lfs = require "lfs"
+
+http_request.init_request_headers()
 
 local function s_split(s, delimiter)
     local result = {}
@@ -19,6 +22,64 @@ local function s_split(s, delimiter)
 end
 
 local M = {}
+
+local TAG_TYPE = {
+    GENERAL = 0,
+    ARTIST = 1,
+    COPYRIGHT = 3,
+    CHARACTER = 4,
+    STYLE = 5,
+    CIRCLE = 6
+}
+
+function M.load_tags()
+    -- read *.json form ../.data/tags directory
+    local tag_dict = {}
+    for file in lfs.dir("../.data/tags") do
+        if file ~= "." and file ~= ".." then
+            local path = "../.data/tags/" .. file
+            local attr = lfs.attributes(path)
+            if attr.mode == "file" then
+                local json_data = file_utils.read(path)
+                local tags = cjson.decode(json_data)
+                for _, tag in ipairs(tags) do
+                    tag_dict[tag.name] = tag
+                end
+            end
+        end
+    end
+    M.tag_dict = tag_dict
+end
+
+function M.parse_tags(tag_str)
+    local tag_names = s_split(tag_str, " ")
+    local tag_type_dict = {}
+    local tag_dict = M.tag_dict
+    for _, tag_name in ipairs(tag_names) do
+        local tag = tag_dict[tag_name]
+        local tag_type = tag and tag.type or TAG_TYPE.GENERAL
+        local tag_list = tag_type_dict[tag_type]
+        if not tag_list then
+            tag_list = {}
+            tag_type_dict[tag_type] = tag_list
+        end
+        tag_list[#tag_list + 1] = tag_name
+    end
+    local artist = tag_type_dict[TAG_TYPE.ARTIST]
+    local copyright = tag_type_dict[TAG_TYPE.COPYRIGHT]
+    local character = tag_type_dict[TAG_TYPE.CHARACTER]
+    local style = tag_type_dict[TAG_TYPE.STYLE]
+    local circle = tag_type_dict[TAG_TYPE.CIRCLE]
+    local general = tag_type_dict[TAG_TYPE.GENERAL]
+    return {
+        artist = artist and ("'" .. table.concat(artist, " ") .. "'") or "null",
+        copyright = copyright and ("'" .. table.concat(copyright, " ") .. "'") or "null",
+        character = character and ("'" .. table.concat(character, " ") .. "'") or "null",
+        style = style and ("'" .. table.concat(style, " ") .. "'") or "null",
+        circle = circle and ("'" .. table.concat(circle, " ") .. "'") or "null",
+        general = general and ("'" .. table.concat(general, " ") .. "'") or "null",
+    }
+end
 
 function M.convert_task(task)
     local one_tag = task.one_tag
@@ -101,6 +162,9 @@ function M.get_task_input_data(task, rating)
     local input_path = "../.data/posts/" .. task.file .. "_" .. rating .. ".json"
     local json_data = file_utils.read(input_path)
     local input_data = cjson.decode(json_data)
+    for _, post in ipairs(input_data) do
+        post.tag_dict = M.parse_tags(post.tags)
+    end
     M.set_task_input_cache_data(task, rating, input_data)
     return input_data
 end
@@ -198,7 +262,6 @@ function M.build_one_task(build_index)
         build_index = time // 300
     end
     local build_task, categoary, real_index, task_count = M.get_task_and_categoary_by_index(build_index)
-    print("build_one_task: ", real_index, task_count, time)
     M.build_task_with_rating(build_task, categoary, "s")
     M.build_task_with_rating(build_task, categoary, "q")
     M.build_task_with_rating(build_task, categoary, "e")

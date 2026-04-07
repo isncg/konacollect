@@ -14,7 +14,7 @@
         {% for post in post_list %}
         <div class="img_frame">
             <button class="img_preview_btn"
-                onClick="show_big_image('big_img_row_{{ row_index }}', '{{ post.file_url }}')">
+                onClick="show_big_image('big_img_row_{{ row_index }}', '{{ post.file_url }}', { 'artist': {{ post.tag_dict.artist }}, 'copyright': {{ post.tag_dict.copyright }}, 'tags':{{ post.tag_dict.general }} })">
                 <img class="img_preview" src="{{ post.preview_url }}">
             </button>
         </div> {% endfor %}
