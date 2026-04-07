@@ -16,19 +16,10 @@ div {
 }
 
 .img_frame {
-    width: 25%;
-    float: left;
-}
-
-/* 针对手机屏幕 */
-@media (max-width: 1200px) {
-  .img_frame {
-    width: 50%;
-  }
+    width: 100%;
 }
 
 .img_preview_btn {
-    /* width: 100%; */
     border: none;
     padding: 1px;
     background: transparent;
@@ -37,6 +28,14 @@ div {
 .img_row {
     width: 100%;
     clear: both;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+@media (max-width: 1200px) {
+    .img_row {
+        grid-template-columns: repeat(2, 1fr)
+    }
 }
 
 .subscribe_item_name {
