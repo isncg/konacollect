@@ -32,12 +32,6 @@ div {
     grid-template-columns: repeat(4, 1fr)
 }
 
-@media (max-width: 1200px) {
-    .img_row {
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-
 .subscribe_item_name {
     font-size: 3vw;
     font-family: "sans-serif";
@@ -90,4 +84,46 @@ div {
 
 .logo {
     width: 50%;
+}
+
+@media (max-width: 1200px) {
+    .img_row {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .permalink {
+        font-size: 1.5em;
+        font-family: "sans-serif";
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2em;
+        font-family: "serif";
+        font-weight: bold;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        font-family: "sans-serif";
+    }
+
+    .title_group {
+        display: flex;
+        align-items: baseline;
+        gap: 1vw;
+        float: left;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+
+    .subscribe_item_name {
+        font-size: 1.5em;
+        font-family: "sans-serif";
+        font-style: italic;
+        float: left;
+    }
 }
