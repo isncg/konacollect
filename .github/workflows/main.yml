@@ -12,6 +12,25 @@ jobs:
           git config --global user.email "isn_cg@163.com"
           git config --global user.name "isncg_ci"
 
+      - name: Get public IP and location with Python
+        run: |
+          python - <<EOF
+          import urllib.request
+          import json
+
+          # 获取 IP 和地理位置信息
+          with urllib.request.urlopen('https://ipinfo.io') as response:
+              data = json.loads(response.read().decode())
+              ip = data.get('ip')
+              city = data.get('city')
+              region = data.get('region')
+              country = data.get('country')
+              loc = data.get('loc')
+              print(f"Public IP: {ip}")
+              print(f"Location: {city}, {region}, {country}")
+              print(f"Coordinates: {loc}")
+          EOF 
+
       - name: install lua5.4 liblua5.4-dev luarocks libssl-dev
         run: sudo apt install lua5.4 liblua5.4-dev luarocks libssl-dev
         
