@@ -13,7 +13,7 @@ a {
 }
 
 /* 针对手机屏幕 */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .img_frame {
     width: 50%;
   }
