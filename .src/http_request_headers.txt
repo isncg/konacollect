@@ -1,3 +1,0 @@
-User-Agent: Mozilla/5.0 (Android 14; Mobile; rv:150.0) Gecko/150.0 Firefox/150.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Cookie: cf_clearance=84s3AULl1jaEdYUutUq3ZlH.cFIQA8VeCjPX9BmhSxA-1775567255-1.2.1.1-iUuk4HRoQw72bY8zBQXeOaNV5UkElOVXlfC9O3y9EQk.9XwWRiYFUDMtrZ03Ey3xAYzoGrHk5q1CGUM98A1uP8.0XBgtmngXThySFN_3Q6bavuVdk8fGGhuQTJtelD1l_5Y53tZ0W5MZuR125Ip1UDwJCrEv_WJ1qsbdfp8M2M75KDjkZSRij7zKib8Ih50.re9cTQv04u__sUc9cgajNz9H35XEYgaVMs79IgVC.zpcd66LImFDIZHo9m.PBrXCRnELgk2U4WmgvALJa5xYA5P.h9S_hOO0P3yLdI5p7Cghvf35peEKGpw7QjG1Oy7wh49yhYBM9RuSWbpMvjfWYA; __utma=20658210.310265880.1775458003.1775517192.1775523505.4; __utmz=20658210.1775458003.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)

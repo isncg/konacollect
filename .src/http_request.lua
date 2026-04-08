@@ -15,7 +15,7 @@ local M = {}
 
 function M.init_request_headers()
     -- read 'http_request_headers.txt'
-    local file = io.open("http_request_headers.txt", "r")
+    local file = io.open("headers.txt", "r")
     if file then
         local headers = {}
         for line in file:lines() do
