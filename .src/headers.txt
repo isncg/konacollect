@@ -1,2 +1,0 @@
-User-Agent: Mozilla/5.0 (Android 14; Mobile; rv:150.0) Gecko/150.0 Firefox/150.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
