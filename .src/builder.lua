@@ -284,16 +284,17 @@ function M.build_categoary_index(subscribe, rating)
             file = task.file,
             post_list = post_list,
         }
-        item_list[#item_list + 1] = item
-        -- item.title = task.title
-        -- item.post_list = post_list
         local input_data = M.get_task_input_data(task, rating)
         if input_data then
             for i = 1, 4 do
                 post_list[#post_list + 1] = input_data[i]
             end
+	    if #post_list > 0 then
+                item_list[#item_list + 1] = item
+	    end
         end
     end
+    if #item_list == 0 then return end
 
     local doc_root = output_dir and
         (rating == "s" and "../" or "../../") or

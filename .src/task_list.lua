@@ -4,6 +4,7 @@ return {
         build_list = {
             { request_tags = {},                title = "New",       subtitle = "", file = "recent" },
             { request_tags = { "order:score" }, title = "Top Score", subtitle = "", file = "highscore" },
+            { one_tag = "pussy" },
         }
     },
     {
@@ -33,6 +34,7 @@ return {
             { one_tag = "swordsouls" },
             { one_tag = "yoruneko" },
             { one_tag = "ru_zhai" },
+            { one_tag = "ringsel" },
             { one_tag = "criin_(659503)" },
             { one_tag = "wlop" },
             { one_tag = "cangkong" },
