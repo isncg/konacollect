@@ -42,7 +42,7 @@ jobs:
       - name: Build
         run: |
           cd .src
-          lua5.4 test_run.lua
+          lua5.4 run.lua
           cd ..
 
       - name: Commit git change
