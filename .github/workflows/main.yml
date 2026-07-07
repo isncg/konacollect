@@ -6,6 +6,7 @@ on:
 jobs:
   update_site:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Setup git
         run: |
@@ -38,6 +39,27 @@ jobs:
         
       - name: Clone konachan100.github.io
         uses: sudosubin/git-clone-action@v1.0.1
+
+      - name: Start FlareSolverr
+        run: |
+          docker pull ghcr.io/flaresolverr/flaresolverr:latest
+          docker run -d --rm --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr:latest
+          echo "Waiting for FlareSolverr..."
+          for i in $(seq 1 30); do
+            if curl -s http://localhost:8191/v1 > /dev/null 2>&1; then
+              echo "FlareSolverr is ready"
+              break
+            fi
+            echo "  attempt $i/30..."
+            sleep 2
+          done
+          curl -s http://localhost:8191/v1 | head -c 100
+
+      - name: Refresh CF clearance
+        run: |
+          cd .src
+          lua5.4 refresh_cookie.lua
+          cd ..
 
       - name: Build
         run: |
