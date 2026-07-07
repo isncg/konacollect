@@ -46,20 +46,13 @@ jobs:
           docker run -d --rm --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr:latest
           echo "Waiting for FlareSolverr..."
           for i in $(seq 1 30); do
-            if curl -s http://localhost:8191/v1 > /dev/null 2>&1; then
+            if curl -s -X POST http://localhost:8191/v1 > /dev/null 2>&1; then
               echo "FlareSolverr is ready"
               break
             fi
             echo "  attempt $i/30..."
             sleep 2
           done
-          curl -s http://localhost:8191/v1 | head -c 100
-
-      - name: Refresh CF clearance
-        run: |
-          cd .src
-          lua5.4 refresh_cookie.lua
-          cd ..
 
       - name: Build
         run: |
