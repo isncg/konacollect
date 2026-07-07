@@ -25,6 +25,19 @@ function M.init_request_headers()
     end
 end
 
+local function strip_html(body)
+    local inner = body:match("<pre>(.-)</pre>")
+    if inner then
+        inner = inner:gsub("&quot;", '"')
+        inner = inner:gsub("&amp;", "&")
+        inner = inner:gsub("&lt;", "<")
+        inner = inner:gsub("&gt;", ">")
+        inner = inner:gsub("&#39;", "'")
+        return inner
+    end
+    return body
+end
+
 function M.request_post(rating, tags, download_path)
     local url = base_url .. "?limit=100&tags=" .. enums.PostRatingTag[rating]
     if tags and #tags > 0 then
@@ -40,6 +53,8 @@ function M.request_post(rating, tags, download_path)
         print("request failed: FlareSolverr returned status " .. tostring(status))
         return
     end
+
+    body = strip_html(body)
 
     local file = io.open(temp_download_path, "wb")
     if not file then
