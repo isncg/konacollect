@@ -1,16 +1,27 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="referrer" content="no-referrer">
     <script src="../../js/post_list.js"></script>
     <link rel="stylesheet" href="../../css/post_list.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="bg-decor">
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+    </div>
+
+    <div class="page-container">
         <div class="topbar">
         <div class="logo_group">
-            <img class="logo" src="https://konachan.net/images/logo_small.png">
+            <img class="logo" src="../../logo_small.png">
         </div>
         <div class="permalink_list">
             
@@ -22,8 +33,14 @@
             
         </div>
         <div class="title_group">
+            <div class="title-deco title-deco-left">✧ ﾟ ✧ ﾟ</div>
             <div class="title">Fufumi</div>
-            <div class="subtitle">Artist</div>
+            <div class="title-deco title-deco-right">ﾟ ✧ ﾟ ✧</div>
+            <div class="title_stars">
+                <span class="star star-1">☆</span>
+                <span class="star star-2">★</span>
+                <span class="star star-3">☆</span>
+            </div>
         </div>
     </div>
     
@@ -32,10 +49,13 @@
         <div class="img_frame">
             <button class="img_preview_btn"
                 onClick="show_big_image('big_img_row_1', 'https://konachan.net/image/44f6eb8a6d2aecfe360cbb8e83b067b4/Konachan.com%20-%20310342%20bra%20fufumi%20green_eyes%20hidan_no_aria%20long_hair%20rain%20school_uniform%20see_through%20thighhighs%20underwear%20water%20watermark%20wet%20white_hair.jpg', { 'artist': 'fufumi', 'copyright': 'hidan_no_aria', 'tags':'bra green_eyes long_hair rain school_uniform see_through thighhighs underwear water watermark wet white_hair' })">
-                <img class="img_preview" src="https://konachan.net/data/preview/44/f6/44f6eb8a6d2aecfe360cbb8e83b067b4.jpg">
+                <img class="img_preview" loading="lazy" src="https://konachan.net/data/preview/44/f6/44f6eb8a6d2aecfe360cbb8e83b067b4.jpg">
             </button>
         </div> 
     </div>
     <div class="big_img_row" id="big_img_row_1"> </div>
     
+    </div>
 </body>
+
+</html>
