@@ -1,6 +1,6 @@
     <div class="topbar">
         <div class="logo_group">
-            <img class="logo" src="https://konachan.net/images/logo_small.png">
+            <img class="logo" src="{{ doc_root }}logo_small.png">
         </div>
         <div class="permalink_list">
             {% for link in permalinks %}
@@ -8,7 +8,13 @@
             {% endfor %}
         </div>
         <div class="title_group">
+            <div class="title-deco title-deco-left">✧ ﾟ ✧ ﾟ</div>
             <div class="title">{{ title }}</div>
-            <div class="subtitle">{{ subtitle }}</div>
+            <div class="title-deco title-deco-right">ﾟ ✧ ﾟ ✧</div>
+            <div class="title_stars">
+                <span class="star star-1">☆</span>
+                <span class="star star-2">★</span>
+                <span class="star star-3">☆</span>
+            </div>
         </div>
     </div>
