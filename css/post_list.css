@@ -340,3 +340,60 @@ a {
         font-size: 0.75rem;
     }
 }
+
+@media (max-width: 480px) {
+    .page-container {
+        padding: 0 6px 28px;
+    }
+
+    .topbar {
+        padding: 0 8px;
+    }
+
+    .img_row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3px;
+        padding: 0 0 3px;
+    }
+
+    .big_img {
+        width: 100%;
+        padding: 8px 0 6px;
+        border-radius: 0;
+    }
+
+    .meta_data_row {
+        padding: 4px 2%;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    .title-deco {
+        font-size: 0.6rem;
+        letter-spacing: 3px;
+    }
+
+    .permalink {
+        padding: 5px 12px;
+        font-size: 0.75rem;
+    }
+
+    .permalink_list {
+        gap: 4px;
+    }
+
+    .meta_data_name {
+        font-size: 0.75rem;
+    }
+
+    .tag_name {
+        font-size: 0.7rem;
+    }
+}
