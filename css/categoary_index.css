@@ -373,7 +373,7 @@ a {
 }
 
 /* === Responsive === */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .page-container {
         padding: 0 12px 40px;
     }
@@ -420,64 +420,5 @@ a {
 
     .section_divider {
         gap: 8px;
-    }
-}
-
-@media (max-width: 480px) {
-    .page-container {
-        padding: 0 6px 28px;
-    }
-
-    .topbar {
-        padding: 0 8px;
-    }
-
-    .img_row {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2px;
-        padding: 0 2px 2px;
-    }
-
-    .logo {
-        width: 110px;
-    }
-
-    .title {
-        font-size: 1.5rem;
-        letter-spacing: 2px;
-    }
-
-    .title-deco {
-        font-size: 0.6rem;
-        letter-spacing: 3px;
-    }
-
-    .permalink {
-        padding: 5px 12px;
-        font-size: 0.75rem;
-    }
-
-    .permalink_list {
-        gap: 4px;
-    }
-
-    .subscribe_item {
-        border-radius: 10px;
-    }
-
-    .subscribe_item_name {
-        font-size: 1rem;
-    }
-
-    .subscribe_item_info {
-        padding: 10px 12px 8px;
-    }
-
-    .section_grid {
-        gap: 16px;
-    }
-
-    .section_divider {
-        gap: 6px;
     }
 }
