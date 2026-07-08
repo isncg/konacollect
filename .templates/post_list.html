@@ -1,13 +1,24 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="referrer" content="no-referrer">
     <script src="{{ doc_root }}js/post_list.js"></script>
     <link rel="stylesheet" href="{{ doc_root }}css/post_list.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="bg-decor">
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+    </div>
+
+    <div class="page-container">
     {% include "topbar" %}
     {% for row_index, post_list in line_list %}
     <div class="img_row">
@@ -15,10 +26,13 @@
         <div class="img_frame">
             <button class="img_preview_btn"
                 onClick="show_big_image('big_img_row_{{ row_index }}', '{{ post.file_url }}', { 'artist': {{ post.tag_dict.artist }}, 'copyright': {{ post.tag_dict.copyright }}, 'tags':{{ post.tag_dict.general }} })">
-                <img class="img_preview" src="{{ post.preview_url }}">
+                <img class="img_preview" loading="lazy" src="{{ post.preview_url }}">
             </button>
         </div> {% endfor %}
     </div>
     <div class="big_img_row" id="big_img_row_{{ row_index }}"> </div>
     {% endfor %}
+    </div>
 </body>
+
+</html>
