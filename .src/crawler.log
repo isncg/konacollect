@@ -733,3 +733,24 @@
 [2026-07-11 17:15:02] INFO FlareSolverr: HTTP 200, response 623 bytes
 [2026-07-11 17:15:02] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-11 18:09:04] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:safe%20yoruneko ...
+------------------------------------------------------------------------
+[2026-07-11 18:09:04] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-11 18:09:04] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:safe%20yoruneko
+[2026-07-11 18:09:05] INFO FlareSolverr: HTTP 200, response 4582 bytes
+[2026-07-11 18:09:05] INFO FlareSolverr: solved, status=200.0, body=3900 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":276205,"tags":"cape gloves hat long_hair original pantyhose pink_hair ribbons signed yellow_eyes yoruneko","created_at":1546237331,"updated_at":1546238072,"creator_id":207452,"approver_id":73632,"author":"蕾咪","change":1585915,"source":"https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=66569412","score":77,"md5":"1c1e9d9fdd95d8dcb9f429b52049e8ed","file_size":1062572,"file_ext":"png","file_url":"https://konachan.net/image/1c1e9d9fdd95d8dcb9f429b52049e8ed/Konachan.com%20-
+[2026-07-11 18:09:05] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20yoruneko ...
+------------------------------------------------------------------------
+[2026-07-11 18:09:05] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-11 18:09:05] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20yoruneko
+[2026-07-11 18:09:07] INFO FlareSolverr: HTTP 200, response 620 bytes
+[2026-07-11 18:09:07] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-11 18:09:07] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20yoruneko ...
+------------------------------------------------------------------------
+[2026-07-11 18:09:07] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-11 18:09:07] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20yoruneko
+[2026-07-11 18:09:09] INFO FlareSolverr: HTTP 200, response 616 bytes
+[2026-07-11 18:09:09] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
