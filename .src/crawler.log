@@ -1825,3 +1825,24 @@
 [2026-07-15 00:53:14] INFO FlareSolverr: HTTP 200, response 619 bytes
 [2026-07-15 00:53:14] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-15 03:51:37] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:safe%20blue_archive ...
+------------------------------------------------------------------------
+[2026-07-15 03:51:37] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-15 03:51:37] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:safe%20blue_archive
+[2026-07-15 03:51:39] INFO FlareSolverr: HTTP 200, response 207388 bytes
+[2026-07-15 03:51:39] INFO FlareSolverr: solved, status=200.0, body=195537 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406094,"tags":"bed bikini black_hair blue_archive braids close flat_chest gray_eyes halo long_hair navel ryuuge_kisaki swimsuit tsuguu","created_at":1783971788,"updated_at":1783971798,"creator_id":73632,"approver_id":null,"author":"otaku_emmy","change":2513788,"source":"https://www.pixiv.net/artworks/147147049","score":19,"md5":"60b333834f2e0fd2edce87570b1cbd8e","file_size":5190214,"file_ext":"png","file_url":"https://konachan.net/image/60b333834f2e0fd2edce87570b1cbd8e/Konachan.com%20-%204
+[2026-07-15 03:51:39] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20blue_archive ...
+------------------------------------------------------------------------
+[2026-07-15 03:51:39] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-15 03:51:39] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20blue_archive
+[2026-07-15 03:51:40] INFO FlareSolverr: HTTP 200, response 624 bytes
+[2026-07-15 03:51:40] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-15 03:51:40] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20blue_archive ...
+------------------------------------------------------------------------
+[2026-07-15 03:51:40] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-15 03:51:40] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20blue_archive
+[2026-07-15 03:51:42] INFO FlareSolverr: HTTP 200, response 620 bytes
+[2026-07-15 03:51:42] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
