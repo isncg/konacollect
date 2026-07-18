@@ -3022,3 +3022,24 @@
 [2026-07-18 16:03:36] INFO FlareSolverr: HTTP 200, response 626 bytes
 [2026-07-18 16:03:36] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-18 17:07:36] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:safe%20hiten_goane_ryu ...
+------------------------------------------------------------------------
+[2026-07-18 17:07:36] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-18 17:07:36] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:safe%20hiten_goane_ryu
+[2026-07-18 17:07:38] INFO FlareSolverr: HTTP 200, response 178595 bytes
+[2026-07-18 17:07:38] INFO FlareSolverr: solved, status=200.0, body=167412 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":405325,"tags":"ayase_saki blonde_hair bow breast_hold christmas gimai_seikatsu hat hiten_(hitenkei) long_hair navel purple_eyes santa_hat skirt","created_at":1781954353,"updated_at":1781954353,"creator_id":210352,"approver_id":null,"author":"Arsy","change":2510228,"source":"https://x.com/gimaiseikatsu/status/2058865810358383089","score":26,"md5":"9f1bf7a001aa46ac8d153dfb3f1d3081","file_size":2112538,"file_ext":"png","file_url":"https://konachan.net/image/9f1bf7a001aa46ac8d153dfb3f1d3081/Ko
+[2026-07-18 17:07:38] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20hiten_goane_ryu ...
+------------------------------------------------------------------------
+[2026-07-18 17:07:38] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-18 17:07:38] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20hiten_goane_ryu
+[2026-07-18 17:07:40] INFO FlareSolverr: HTTP 200, response 627 bytes
+[2026-07-18 17:07:40] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-18 17:07:40] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20hiten_goane_ryu ...
+------------------------------------------------------------------------
+[2026-07-18 17:07:40] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-18 17:07:40] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20hiten_goane_ryu
+[2026-07-18 17:07:41] INFO FlareSolverr: HTTP 200, response 623 bytes
+[2026-07-18 17:07:41] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
