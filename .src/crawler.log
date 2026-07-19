@@ -3232,3 +3232,24 @@
 [2026-07-19 04:55:54] INFO FlareSolverr: HTTP 200, response 626 bytes
 [2026-07-19 04:55:54] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-19 07:24:25] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:safe%20arknights ...
+------------------------------------------------------------------------
+[2026-07-19 07:24:25] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-19 07:24:25] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:safe%20arknights
+[2026-07-19 07:24:26] INFO FlareSolverr: HTTP 200, response 210735 bytes
+[2026-07-19 07:24:26] INFO FlareSolverr: solved, status=200.0, body=198887 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406258,"tags":"animal_ears arknights arknights:_endfield black_hair blonde_hair blue_eyes blush cat_smile chen_qianyu_(arknights) endministrator_(arknights) fang food fruit garter gloves gray_hair group horns logo long_hair male mask nemo_(ani1995) orange_eyes perlica_(arknights) pizza rossi_(arknights) tail watermark wolfgirl wulfgard_(arknights)","created_at":1784404726,"updated_at":1784404741,"creator_id":73632,"approver_id":null,"author":"otaku_emmy","change":2514584,"source":"https://
+[2026-07-19 07:24:26] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20arknights ...
+------------------------------------------------------------------------
+[2026-07-19 07:24:26] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-19 07:24:26] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:questionable%20arknights
+[2026-07-19 07:24:27] INFO FlareSolverr: HTTP 200, response 621 bytes
+[2026-07-19 07:24:27] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-19 07:24:27] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20arknights ...
+------------------------------------------------------------------------
+[2026-07-19 07:24:27] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-19 07:24:27] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:explicit%20arknights
+[2026-07-19 07:24:28] INFO FlareSolverr: HTTP 200, response 617 bytes
+[2026-07-19 07:24:28] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
