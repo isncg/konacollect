@@ -3547,3 +3547,24 @@
 [2026-07-19 23:08:02] INFO FlareSolverr: HTTP 200, response 652 bytes
 [2026-07-19 23:08:02] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-20 00:08:34] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:safe ...
+------------------------------------------------------------------------
+[2026-07-20 00:08:34] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-20 00:08:34] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:safe
+[2026-07-20 00:08:36] INFO FlareSolverr: HTTP 200, response 207809 bytes
+[2026-07-20 00:08:36] INFO FlareSolverr: solved, status=200.0, body=195721 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406297,"tags":"bicolored_eyes blush carbonara_(user_jstu7878) cat_smile dress fang foxgirl heart long_hair purple_hair stellive tail tenko_shibuki thighhighs white","created_at":1784490966,"updated_at":1784490982,"creator_id":73632,"approver_id":null,"author":"otaku_emmy","change":2514757,"source":"https://www.pixiv.net/en/artworks/143296662","score":9,"md5":"c49fb9b3b5f3f1327036bae9ae20544e","file_size":7542330,"file_ext":"png","file_url":"https://konachan.net/image/c49fb9b3b5f3f1327036ba
+[2026-07-20 00:08:36] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:questionable ...
+------------------------------------------------------------------------
+[2026-07-20 00:08:36] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-20 00:08:36] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:questionable
+[2026-07-20 00:08:37] INFO FlareSolverr: HTTP 200, response 609 bytes
+[2026-07-20 00:08:37] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-07-20 00:08:37] INFO FlareSolverr: solving challenge for https://www.konachan.net/post.json?limit=100&tags=rating:explicit ...
+------------------------------------------------------------------------
+[2026-07-20 00:08:37] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-20 00:08:37] INFO   target: https://www.konachan.net/post.json?limit=100&tags=rating:explicit
+[2026-07-20 00:08:39] INFO FlareSolverr: HTTP 200, response 605 bytes
+[2026-07-20 00:08:39] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
