@@ -6296,3 +6296,24 @@
 [2026-07-29 13:18:26] INFO FlareSolverr: HTTP 200, response 4716 bytes
 [2026-07-29 13:18:26] INFO FlareSolverr: solved, status=200.0, body=4035 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":282980,"tags":"anthropomorphism an_yasuri azur_lane barefoot blush braids breasts gloves long_hair monarch_(azur_lane) nipples pussy red_hair uncensored","created_at":1556896472,"updated_at":1556923545,"creator_id":181250,"approver_id":73632,"author":"BattlequeenYume","change":1648315,"source":"https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=73154137","score":311,"md5":"2c88d9e02efdda875431d144c9244e3b","file_size":18847114,"file_ext":"png","file_url":"https://konachan.c
+[2026-07-29 15:22:50] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20arknights ...
+------------------------------------------------------------------------
+[2026-07-29 15:22:50] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-29 15:22:50] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20arknights
+[2026-07-29 15:22:52] INFO FlareSolverr: HTTP 200, response 209722 bytes
+[2026-07-29 15:22:52] INFO FlareSolverr: solved, status=200.0, body=197874 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406607,"tags":"animal animal_ears arknights bird blonde_hair breasts brown_eyes brown_hair horns ifrit_(arknights) logo magallan_(arknights) muelsyse_(arknights) norizc orange_eyes short_hair skirt twintails","created_at":1785178218,"updated_at":1785180120,"creator_id":189002,"approver_id":73632,"author":"S17","change":2516066,"source":"https://norizci.lofter.com/post/248450_1c916ee43","score":11,"md5":"b69b378a077d7efabc59dbd0953f55b5","file_size":3415189,"file_ext":"png","file_url":"http
+[2026-07-29 15:22:52] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20arknights ...
+------------------------------------------------------------------------
+[2026-07-29 15:22:52] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-29 15:22:52] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20arknights
+[2026-07-29 15:22:53] INFO FlareSolverr: HTTP 200, response 209967 bytes
+[2026-07-29 15:22:53] INFO FlareSolverr: solved, status=200.0, body=198110 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406613,"tags":"2girls arknights ass beach bikini blush breasts chibi gray_eyes gray_hair headband irene_(arknights) long_hair red_eyes scar specter_(arknights) swimsuit undressing uof","created_at":1785184967,"updated_at":1785184967,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2516113,"source":"https://www.pixiv.net/en/artworks/147714728","score":3,"md5":"33240cee697c0695078a801f2f746abf","file_size":13863398,"file_ext":"jpg","file_url":"https://konachan.com/i
+[2026-07-29 15:22:53] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20arknights ...
+------------------------------------------------------------------------
+[2026-07-29 15:22:53] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-07-29 15:22:53] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20arknights
+[2026-07-29 15:22:56] INFO FlareSolverr: HTTP 200, response 210481 bytes
+[2026-07-29 15:22:56] INFO FlareSolverr: solved, status=200.0, body=198629 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406644,"tags":"2girls animal_ears anus arknights blonde_hair blue_archive blush braids breasts brown_hair censored crossover foxgirl green_eyes headband kuda_izuna mouma multiple_tails navel nipples nude pussy short_hair spread_legs suzuran_(arknights) tail thighhighs yellow_eyes","created_at":1785243803,"updated_at":1785243803,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2516251,"source":"https://www.pixiv.net/en/artworks/147742017","score":9,"md5":"21acfd234
