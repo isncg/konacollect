@@ -7052,3 +7052,24 @@
 [2026-08-01 01:15:50] INFO FlareSolverr: HTTP 200, response 4716 bytes
 [2026-08-01 01:15:50] INFO FlareSolverr: solved, status=200.0, body=4035 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":282980,"tags":"anthropomorphism an_yasuri azur_lane barefoot blush braids breasts gloves long_hair monarch_(azur_lane) nipples pussy red_hair uncensored","created_at":1556896472,"updated_at":1556923545,"creator_id":181250,"approver_id":73632,"author":"BattlequeenYume","change":1648315,"source":"https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=73154137","score":311,"md5":"2c88d9e02efdda875431d144c9244e3b","file_size":18847114,"file_ext":"png","file_url":"https://konachan.c
+[2026-08-01 04:38:28] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20mivit ...
+------------------------------------------------------------------------
+[2026-08-01 04:38:28] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-01 04:38:28] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20mivit
+[2026-08-01 04:38:29] INFO FlareSolverr: HTTP 200, response 179060 bytes
+[2026-08-01 04:38:29] INFO FlareSolverr: solved, status=200.0, body=167537 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":387404,"tags":"boots cape dress ender_magnolia_bloom_in_the_mist gray_hair lilac_(ender_magnolia) mask miv4t robot short_hair techgirl","created_at":1741965144,"updated_at":1742222467,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2425637,"source":"https://www.pixiv.net/en/artworks/128214485","score":32,"md5":"44135bbfc0d199786018e1357dcbd213","file_size":5332017,"file_ext":"png","file_url":"https://konachan.com/image/44135bbfc0d199786018e1357dcbd213/Konachan.co
+[2026-08-01 04:38:29] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20mivit ...
+------------------------------------------------------------------------
+[2026-08-01 04:38:29] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-01 04:38:29] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20mivit
+[2026-08-01 04:38:31] INFO FlareSolverr: HTTP 200, response 2765 bytes
+[2026-08-01 04:38:31] INFO FlareSolverr: solved, status=200.0, body=2198 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":218322,"tags":"animal_ears ass bath bathtub breasts brown_hair camera dark gray_hair long_hair miv4t nude original panties red_hair short_hair shower socks towel underwear undressing water wristwear","created_at":1460137197,"updated_at":1460140596,"creator_id":147781,"approver_id":73632,"author":"luckyluna","change":1156127,"source":"http://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=56260052","score":265,"md5":"2e4ccd4204f064dadd9d19329b7ef04f","file_size":1239728,"file_ext
+[2026-08-01 04:38:31] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20mivit ...
+------------------------------------------------------------------------
+[2026-08-01 04:38:31] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-01 04:38:31] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20mivit
+[2026-08-01 04:38:32] INFO FlareSolverr: HTTP 200, response 613 bytes
+[2026-08-01 04:38:32] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
