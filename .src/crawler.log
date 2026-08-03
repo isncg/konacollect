@@ -7829,3 +7829,24 @@
 [2026-08-03 11:39:20] INFO FlareSolverr: HTTP 200, response 211744 bytes
 [2026-08-03 11:39:20] INFO FlareSolverr: solved, status=200.0, body=199892 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406401,"tags":"abpart anthropomorphism azur_lane bikini black_hair blush bottomless breasts cum fang garter goetz_von_berlichingen_(azur_lane) green_eyes horns long_hair navel nipples penis pointed_ears pussy pussy_juice sex spread_legs sunglasses swimsuit uncensored watermark wings wristwear","created_at":1784724463,"updated_at":1785106009,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2515234,"source":"","score":52,"md5":"3ebe2d7d64de71208cb7808992edd6b8","fil
+[2026-08-03 14:01:15] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20swordsouls ...
+------------------------------------------------------------------------
+[2026-08-03 14:01:15] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-03 14:01:15] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20swordsouls
+[2026-08-03 14:01:17] INFO FlareSolverr: HTTP 200, response 206551 bytes
+[2026-08-03 14:01:17] INFO FlareSolverr: solved, status=200.0, body=194635 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":351209,"tags":"alice_(nikke) anis_(nikke) blonde_hair bodysuit brown_hair building city goddess_of_victory:_nikke gray_hair group gun logo long_hair marian_(nikke) purple_eyes rapi_(nikke) red_eyes ruins swordsouls thighhighs torn_clothes twintails weapon","created_at":1672145220,"updated_at":1672145220,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2205400,"source":"https://www.pixiv.net/en/artworks/103959479","score":44,"md5":"1ae96c81a771a1d451812796e8724ffb"
+[2026-08-03 14:01:17] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20swordsouls ...
+------------------------------------------------------------------------
+[2026-08-03 14:01:17] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-03 14:01:17] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20swordsouls
+[2026-08-03 14:01:18] INFO FlareSolverr: HTTP 200, response 69263 bytes
+[2026-08-03 14:01:18] INFO FlareSolverr: solved, status=200.0, body=64907 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":351833,"tags":"animal_ears ass blonde_hair braids bunny_ears bunnygirl dorothy_(echocalypse) echocalypse eriri_(echocalypse) foxgirl gray_hair green_eyes group logo long_hair nude onsen panther_(echocalypse) ponytail purple_eyes red_eyes snezhana_(echocalypse) sova_(echocalypse) swordsouls tail towel tree twintails water wet winter","created_at":1673787918,"updated_at":1673787918,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2214752,"source":"https://www.pixiv.
+[2026-08-03 14:01:18] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20swordsouls ...
+------------------------------------------------------------------------
+[2026-08-03 14:01:18] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-03 14:01:18] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20swordsouls
+[2026-08-03 14:01:20] INFO FlareSolverr: HTTP 200, response 618 bytes
+[2026-08-03 14:01:20] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
