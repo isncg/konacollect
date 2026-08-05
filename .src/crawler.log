@@ -8501,3 +8501,24 @@
 [2026-08-05 22:39:00] INFO FlareSolverr: HTTP 200, response 614 bytes
 [2026-08-05 22:39:00] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-08-05 23:36:04] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20azur_lane ...
+------------------------------------------------------------------------
+[2026-08-05 23:36:04] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-05 23:36:04] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20azur_lane
+[2026-08-05 23:36:06] INFO FlareSolverr: HTTP 200, response 210163 bytes
+[2026-08-05 23:36:06] INFO FlareSolverr: solved, status=200.0, body=198315 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406712,"tags":"anthropomorphism azur_lane braids building cape cross dress elbow_gloves garter_belt gloves hat horns nuernberg_(azur_lane) ponytail red_eyes shirt stockings sword tagme_(artist) tie transparent weapon","created_at":1785408866,"updated_at":1785587238,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2516589,"source":"","score":17,"md5":"07d964235691744bb47824b4beffc0b6","file_size":7801055,"file_ext":"png","file_url":"https://konachan.com/image/07d96
+[2026-08-05 23:36:06] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20azur_lane ...
+------------------------------------------------------------------------
+[2026-08-05 23:36:06] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-05 23:36:06] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20azur_lane
+[2026-08-05 23:36:07] INFO FlareSolverr: HTTP 200, response 212207 bytes
+[2026-08-05 23:36:07] INFO FlareSolverr: solved, status=200.0, body=200351 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406878,"tags":"anthropomorphism azur_lane bed breasts cleavage garter_belt gloves headdress nurse pink_eyes plymouth_(azur_lane) purple_hair stockings teaoe uniform zettai_ryouiki","created_at":1785767401,"updated_at":1785778711,"creator_id":321590,"approver_id":73632,"author":"hohim","change":2517145,"source":"https://www.pixiv.net/artworks/147877122","score":11,"md5":"62b5a06a010077686d460859eb7c456d","file_size":3697413,"file_ext":"png","file_url":"https://konachan.com/image/62b5a06a010
+[2026-08-05 23:36:07] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20azur_lane ...
+------------------------------------------------------------------------
+[2026-08-05 23:36:07] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-05 23:36:07] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20azur_lane
+[2026-08-05 23:36:09] INFO FlareSolverr: HTTP 200, response 211787 bytes
+[2026-08-05 23:36:09] INFO FlareSolverr: solved, status=200.0, body=199935 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406884,"tags":"anthropomorphism anus azur_lane beach bikini breasts cameltoe classic_(zildjian33) garter gray_hair navel red_eyes short_hair sirius_(azur_lane) spread_legs sunglasses swimsuit tree water wet wristwear","created_at":1785793656,"updated_at":1785793656,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2517208,"source":"https://classictonight.fanbox.cc/posts/12366272","score":5,"md5":"24b15451036867e93fefc1c3cbc5d5ef","file_size":4753155,"file_ext":"jpg
