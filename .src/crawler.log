@@ -8984,3 +8984,24 @@
 [2026-08-07 18:07:39] INFO FlareSolverr: HTTP 200, response 2750 bytes
 [2026-08-07 18:07:39] INFO FlareSolverr: solved, status=200.0, body=2184 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":282207,"tags":"animal_ears barefoot blue_eyes blush breasts censored dark_skin foxgirl hat long_hair navel nipples no_bra original panty_pull pussy_juice shirt_lift tan_lines thighhighs white_hair yoruneko","created_at":1555601459,"updated_at":1555612271,"creator_id":181250,"approver_id":73632,"author":"BattlequeenYume","change":1641855,"source":"https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=74266329","score":178,"md5":"0df55bbb69ab98d943939e97c8855baf","file_size":629
+[2026-08-07 19:11:33] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20mahou_shoujo_madoka_magica ...
+------------------------------------------------------------------------
+[2026-08-07 19:11:33] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-07 19:11:33] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20mahou_shoujo_madoka_magica
+[2026-08-07 19:11:35] INFO FlareSolverr: HTTP 200, response 201150 bytes
+[2026-08-07 19:11:35] INFO FlareSolverr: solved, status=200.0, body=189246 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406540,"tags":"aqua_hair blue_eyes clouds gloamy headband mahou_shoujo_madoka_magica miki_sayaka short_hair skirt sky","created_at":1785020383,"updated_at":1785020396,"creator_id":73632,"approver_id":null,"author":"otaku_emmy","change":2515824,"source":"https://www.pixiv.net/artworks/97429956","score":10,"md5":"bfe0a93e8cea466c118c9ac53ff6f7f2","file_size":1483725,"file_ext":"png","file_url":"https://konachan.com/image/bfe0a93e8cea466c118c9ac53ff6f7f2/Konachan.com%20-%20406540%20aqua_hair%
+[2026-08-07 19:11:35] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20mahou_shoujo_madoka_magica ...
+------------------------------------------------------------------------
+[2026-08-07 19:11:35] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-07 19:11:35] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20mahou_shoujo_madoka_magica
+[2026-08-07 19:11:37] INFO FlareSolverr: HTTP 200, response 197251 bytes
+[2026-08-07 19:11:37] INFO FlareSolverr: solved, status=200.0, body=185349 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":403690,"tags":"2girls akemi_homura akuma_homura black_hair bow dress elbow_gloves feathers gloves headband kaname_madoka long_hair mahou_shoujo_madoka_magica nopan pink_hair purple_eyes thighhighs twintails wako_(1194433260) wings","created_at":1778857577,"updated_at":1779202477,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2501407,"source":"https://www.pixiv.net/en/artworks/144807179","score":24,"md5":"1757999e9d81be44ef0fd3ffa688787b","file_size":12131958,"fi
+[2026-08-07 19:11:37] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20mahou_shoujo_madoka_magica ...
+------------------------------------------------------------------------
+[2026-08-07 19:11:37] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-07 19:11:37] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20mahou_shoujo_madoka_magica
+[2026-08-07 19:11:38] INFO FlareSolverr: HTTP 200, response 196203 bytes
+[2026-08-07 19:11:38] INFO FlareSolverr: solved, status=200.0, body=184322 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":376277,"tags":"abutomato alina_gray anal anus blonde_hair blush bondage boots crossover futanari gloves long_hair magia_record:_mahou_shoujo_madoka_magica_gaiden mahou_shoujo_madoka_magica navel penis sex stockings thighhighs tomoe_mami uncensored wet yellow_eyes","created_at":1713786657,"updated_at":1713865495,"creator_id":282441,"approver_id":null,"author":"lowhdeath","change":2370314,"source":"https://yande.re/post/show/1108936","score":62,"md5":"0c2d06e4f02bf25e92c2e42df81bba00","file_
