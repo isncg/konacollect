@@ -12449,3 +12449,24 @@
 [2026-08-13 22:22:08] INFO FlareSolverr: HTTP 200, response 622 bytes
 [2026-08-13 22:22:08] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-08-13 23:08:09] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20rokudenashi_majutsu_koushi_to_akashic_record ...
+------------------------------------------------------------------------
+[2026-08-13 23:08:09] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-13 23:08:09] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20rokudenashi_majutsu_koushi_to_akashic_record
+[2026-08-13 23:08:10] INFO FlareSolverr: HTTP 200, response 13378 bytes
+[2026-08-13 23:08:10] INFO FlareSolverr: solved, status=200.0, body=12207 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":261630,"tags":"2girls animal_ears aqua_eyes beach bikini blonde_hair breasts cleavage clouds green_eyes headband long_hair navel rokudenashi_majutsu_koushi_to_akashic_record rumia_tingel short_hair sistine_fibel sky swimsuit tagme_(artist) tree water white_hair","created_at":1520250359,"updated_at":1520278801,"creator_id":181250,"approver_id":73632,"author":"BattlequeenYume","change":1453287,"source":"https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=63004304","score":80,"
+[2026-08-13 23:08:10] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20rokudenashi_majutsu_koushi_to_akashic_record ...
+------------------------------------------------------------------------
+[2026-08-13 23:08:10] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-13 23:08:10] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20rokudenashi_majutsu_koushi_to_akashic_record
+[2026-08-13 23:08:12] INFO FlareSolverr: HTTP 200, response 21198 bytes
+[2026-08-13 23:08:12] INFO FlareSolverr: solved, status=200.0, body=19524 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":338779,"tags":"animal_ears bra cameltoe erect_nipples garter_belt gloves green_eyes hal_(21) headband long_hair navel open_shirt panties purple_hair rokudenashi_majutsu_koushi_to_akashic_record sistine_fibel skirt_lift stockings underwear","created_at":1645358039,"updated_at":1645358039,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2105299,"source":"https://www.pixiv.net/en/artworks/96397011","score":90,"md5":"60c9cdd9cb9900492c40ce8d3f7dc4fe","file_size":15544
+[2026-08-13 23:08:12] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20rokudenashi_majutsu_koushi_to_akashic_record ...
+------------------------------------------------------------------------
+[2026-08-13 23:08:12] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-13 23:08:12] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20rokudenashi_majutsu_koushi_to_akashic_record
+[2026-08-13 23:08:13] INFO FlareSolverr: HTTP 200, response 4639 bytes
+[2026-08-13 23:08:13] INFO FlareSolverr: solved, status=200.0, body=3923 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":308495,"tags":"bed blue_hair blush breasts close ginhaha long_hair navel nipples nude pussy rokudenashi_majutsu_koushi_to_akashic_record sistine_fiber uncensored","created_at":1591712299,"updated_at":1594680691,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":1877079,"source":"","score":282,"md5":"53a9505c681a9e0827ed801a6398ca1d","file_size":7077921,"file_ext":"png","file_url":"https://konachan.com/image/53a9505c681a9e0827ed801a6398ca1d/Konachan.com%20-%20308495%
