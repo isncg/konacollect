@@ -14591,3 +14591,24 @@
 [2026-08-16 10:06:32] INFO FlareSolverr: HTTP 200, response 2750 bytes
 [2026-08-16 10:06:32] INFO FlareSolverr: solved, status=200.0, body=2184 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":282207,"tags":"animal_ears barefoot blue_eyes blush breasts censored dark_skin foxgirl hat long_hair navel nipples no_bra original panty_pull pussy_juice shirt_lift tan_lines thighhighs white_hair yoruneko","created_at":1555601459,"updated_at":1555612271,"creator_id":181250,"approver_id":73632,"author":"BattlequeenYume","change":1641855,"source":"https://www.pixiv.net/member_illust.php?mode=medium\u0026illust_id=74266329","score":178,"md5":"0df55bbb69ab98d943939e97c8855baf","file_size":629
+[2026-08-16 10:35:34] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20fufumi ...
+------------------------------------------------------------------------
+[2026-08-16 10:35:34] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-16 10:35:34] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20fufumi
+[2026-08-16 10:35:36] INFO FlareSolverr: HTTP 200, response 30322 bytes
+[2026-08-16 10:35:36] INFO FlareSolverr: solved, status=200.0, body=28165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":381325,"tags":"animal animal_ears barefoot bikini bird blush brown_hair choker clouds flat_chest fufumi loli long_hair navel original popsicle purple_eyes sky swim_ring swimsuit twintails water watermark","created_at":1726405328,"updated_at":1726578346,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2396303,"source":"https://www.pixiv.net/en/artworks/122444841","score":21,"md5":"d1c791885bcbc712f6b6a3aee3cac058","file_size":1732597,"file_ext":"jpg","file_url":"ht
+[2026-08-16 10:35:36] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20fufumi ...
+------------------------------------------------------------------------
+[2026-08-16 10:35:36] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-16 10:35:36] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20fufumi
+[2026-08-16 10:35:38] INFO FlareSolverr: HTTP 200, response 2594 bytes
+[2026-08-16 10:35:38] INFO FlareSolverr: solved, status=200.0, body=2027 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":310342,"tags":"bra fufumi green_eyes hidan_no_aria long_hair rain school_uniform see_through thighhighs underwear water watermark wet white_hair","created_at":1594131430,"updated_at":1730083747,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2404185,"source":"https://www.pixiv.net/en/artworks/82825466","score":57,"md5":"44f6eb8a6d2aecfe360cbb8e83b067b4","file_size":1427095,"file_ext":"jpg","file_url":"https://konachan.com/image/44f6eb8a6d2aecfe360cbb8e83b067b4/Ko
+[2026-08-16 10:35:38] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20fufumi ...
+------------------------------------------------------------------------
+[2026-08-16 10:35:38] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-16 10:35:38] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20fufumi
+[2026-08-16 10:35:39] INFO FlareSolverr: HTTP 200, response 614 bytes
+[2026-08-16 10:35:39] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
