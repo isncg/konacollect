@@ -18371,3 +18371,24 @@
 [2026-08-20 09:20:29] INFO FlareSolverr: HTTP 200, response 612 bytes
 [2026-08-20 09:20:29] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-08-20 09:54:12] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20ayakura_juu ...
+------------------------------------------------------------------------
+[2026-08-20 09:54:12] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-20 09:54:12] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20ayakura_juu
+[2026-08-20 09:54:14] INFO FlareSolverr: HTTP 200, response 62126 bytes
+[2026-08-20 09:54:14] INFO FlareSolverr: solved, status=200.0, body=57770 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":279251,"tags":"animal_ears ayakura_juu black_hair blue_eyes blush bunny_ears bunnygirl clouds futaba_rio glasses koga_tomoe long_hair sakurajima_mai scan school_uniform seishun_buta_yarou short_hair skirt sky","created_at":1551033397,"updated_at":1551033397,"creator_id":156425,"approver_id":null,"author":"RyuZU","change":1611316,"source":"","score":29,"md5":"15e1be157782f5655a122ec37909412f","file_size":6172967,"file_ext":"png","file_url":"https://konachan.com/image/15e1be157782f5655a122ec
+[2026-08-20 09:54:14] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20ayakura_juu ...
+------------------------------------------------------------------------
+[2026-08-20 09:54:14] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-20 09:54:14] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20ayakura_juu
+[2026-08-20 09:54:15] INFO FlareSolverr: HTTP 200, response 2310 bytes
+[2026-08-20 09:54:15] INFO FlareSolverr: solved, status=200.0, body=1738 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":155971,"tags":"animal_ears ayakura_juu brown_hair horo nude ookami_to_koushinryou tail wolfgirl","created_at":1362917098,"updated_at":1364401800,"creator_id":13784,"approver_id":null,"author":"SciFi","change":557835,"source":"","score":155,"md5":"bfe2a98792780edd6ddf436c68b07eab","file_size":17914295,"file_ext":"png","file_url":"https://konachan.com/image/bfe2a98792780edd6ddf436c68b07eab/Konachan.com%20-%20155971%20animal_ears%20ayakura_juu%20brown_hair%20horo%20nude%20ookami_to_koushinryo
+[2026-08-20 09:54:15] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20ayakura_juu ...
+------------------------------------------------------------------------
+[2026-08-20 09:54:15] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-20 09:54:15] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20ayakura_juu
+[2026-08-20 09:54:16] INFO FlareSolverr: HTTP 200, response 619 bytes
+[2026-08-20 09:54:16] INFO FlareSolverr: solved, status=200.0, body=165 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
