@@ -20849,3 +20849,24 @@
 [2026-08-22 22:35:06] INFO FlareSolverr: HTTP 200, response 614 bytes
 [2026-08-22 22:35:06] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-08-22 22:54:16] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20touhou ...
+------------------------------------------------------------------------
+[2026-08-22 22:54:16] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-22 22:54:16] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20touhou
+[2026-08-22 22:54:18] INFO FlareSolverr: HTTP 200, response 204703 bytes
+[2026-08-22 22:54:18] INFO FlareSolverr: solved, status=200.0, body=192858 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407544,"tags":"blue bow brown_hair clouds hakurei_reimu japanese_clothes leaves long_hair miko oito_(bowstringsmall) rooftop shade signed sky socks staff touhou tree","created_at":1787398447,"updated_at":1787398447,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2520119,"source":"https://www.pixiv.net/en/artworks/148746770","score":3,"md5":"2c69633cb5a2a29ab9e34508f04b09bb","file_size":1923651,"file_ext":"jpg","file_url":"https://konachan.com/image/2c69633cb5a2a2
+[2026-08-22 22:54:18] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20touhou ...
+------------------------------------------------------------------------
+[2026-08-22 22:54:18] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-22 22:54:18] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20touhou
+[2026-08-22 22:54:20] INFO FlareSolverr: HTTP 200, response 205121 bytes
+[2026-08-22 22:54:20] INFO FlareSolverr: solved, status=200.0, body=193268 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407037,"tags":"blonde_hair chinese_clothes chinese_dress couch dress flat_chest gray horns kicchou_yachie nopan red_eyes short_hair smoking touhou zan_mei_huo","created_at":1786133266,"updated_at":1786133281,"creator_id":73632,"approver_id":null,"author":"otaku_emmy","change":2517826,"source":"https://www.bilibili.com/opus/1233851249102684160","score":26,"md5":"6ed690cf4edf111720c6e266f23c38c4","file_size":1883134,"file_ext":"png","file_url":"https://konachan.com/image/6ed690cf4edf111720c6
+[2026-08-22 22:54:20] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20touhou ...
+------------------------------------------------------------------------
+[2026-08-22 22:54:20] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-22 22:54:20] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20touhou
+[2026-08-22 22:54:22] INFO FlareSolverr: HTTP 200, response 204686 bytes
+[2026-08-22 22:54:22] INFO FlareSolverr: solved, status=200.0, body=192837 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":396874,"tags":"anus ass bed blush breasts brown_eyes brown_hair hat himekaidou_hatate kneehighs long_hair nipples nironiro panties panty_pull phone pointed_ears pussy pussy_juice skirt skirt_lift topless touhou twintails uncensored underwear","created_at":1765800607,"updated_at":1766094181,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2465293,"source":"","score":119,"md5":"e16d28df38d9f5aa608686d7af7954cb","file_size":5205628,"file_ext":"jpg","file_url":"https:
