@@ -24125,3 +24125,24 @@
 [2026-08-28 00:30:34] INFO FlareSolverr: HTTP 200, response 201106 bytes
 [2026-08-28 00:30:34] INFO FlareSolverr: solved, status=200.0, body=189258 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":385402,"tags":"blush bra breast_hold breasts close cropped hat ke-ta long_hair navel nipples no_bra nopan patchouli_knowledge purple_eyes purple_hair scan skirt_lift touhou uncensored underwear","created_at":1736958604,"updated_at":1737310075,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2416474,"source":"https://yande.re/post/show/1215528","score":110,"md5":"c91cfd105f325ae28d08a8ce0b035f9c","file_size":20668053,"file_ext":"png","file_url":"https://konachan.co
+[2026-08-28 12:05:08] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe ...
+------------------------------------------------------------------------
+[2026-08-28 12:05:08] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-28 12:05:08] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe
+[2026-08-28 12:05:10] INFO FlareSolverr: HTTP 200, response 201271 bytes
+[2026-08-28 12:05:10] INFO FlareSolverr: solved, status=200.0, body=189431 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407764,"tags":"tagme","created_at":1787918039,"updated_at":1787918039,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2520972,"source":"https://www.xiaohongshu.com/explore/6a9174d80000000029028dfd?xsec_token=ABJLRwnxAXYLIdrsQZKbQoQXyEm0ZFczhILQLy_lBteFg=","score":0,"md5":"2aeddc7e833598a87218293b29e30a12","file_size":6613837,"file_ext":"png","file_url":"https://konachan.com/image/2aeddc7e833598a87218293b29e30a12/Konachan.com%20-%20407764%20tagme.png","is_shown_in
+[2026-08-28 12:05:10] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable ...
+------------------------------------------------------------------------
+[2026-08-28 12:05:10] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-28 12:05:10] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable
+[2026-08-28 12:05:12] INFO FlareSolverr: HTTP 200, response 205936 bytes
+[2026-08-28 12:05:12] INFO FlareSolverr: solved, status=200.0, body=194090 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407761,"tags":"tagme","created_at":1787916615,"updated_at":1787916615,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2520966,"source":"https://www.pixiv.net/en/artworks/148987813","score":0,"md5":"766282b386ea20cba6df26827fe7115c","file_size":9234185,"file_ext":"jpg","file_url":"https://konachan.com/image/766282b386ea20cba6df26827fe7115c/Konachan.com%20-%20407761%20tagme.jpg","is_shown_in_index":true,"preview_url":"https://konachan.com/data/preview/76/62/766282b
+[2026-08-28 12:05:12] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit ...
+------------------------------------------------------------------------
+[2026-08-28 12:05:12] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-28 12:05:12] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit
+[2026-08-28 12:05:13] INFO FlareSolverr: HTTP 200, response 205864 bytes
+[2026-08-28 12:05:13] INFO FlareSolverr: solved, status=200.0, body=194024 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407753,"tags":"tagme","created_at":1787914903,"updated_at":1787914903,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2520945,"source":"https://www.pixiv.net/en/artworks/148951439","score":0,"md5":"afc91d9b4e5fb97bd9c13ee9208e31d4","file_size":4461302,"file_ext":"png","file_url":"https://konachan.com/image/afc91d9b4e5fb97bd9c13ee9208e31d4/Konachan.com%20-%20407753%20tagme.png","is_shown_in_index":true,"preview_url":"https://konachan.com/data/preview/af/c9/afc91d9
