@@ -24167,3 +24167,21 @@
 [2026-08-28 22:14:07] INFO FlareSolverr: HTTP 200, response 124052 bytes
 [2026-08-28 22:14:07] INFO FlareSolverr: solved, status=200.0, body=116876 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":405104,"tags":"aemeath_(wuthering_waves) aliasing ball beach black_eyes blush bow breasts cape chain chisa_(wuthering_waves) choker clouds denia_(wuthering_waves) food garter gloves gray_hair group halo headband long_hair mornye_(wuthering_waves) navel necklace nipples nude pink_eyes pink_hair ponytail purple_eyes pussy red_eyes ru_zhai shade sky sunglasses uncensored water wet wristwear wuthering_waves yellow_eyes","created_at":1781466344,"updated_at":1781821576,"creator_id":181250,"appro
+[2026-08-29 03:44:50] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20princess_connect! ...
+------------------------------------------------------------------------
+[2026-08-29 03:44:50] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-29 03:44:50] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20princess_connect!
+[2026-08-29 03:44:50] INFO FlareSolverr: HTTP closed, response 0 bytes
+[2026-08-29 03:44:50] ERROR FlareSolverr returned status closed
+[2026-08-29 03:44:50] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20princess_connect! ...
+------------------------------------------------------------------------
+[2026-08-29 03:44:50] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-29 03:44:50] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20princess_connect!
+[2026-08-29 03:44:50] INFO FlareSolverr: HTTP closed, response 0 bytes
+[2026-08-29 03:44:50] ERROR FlareSolverr returned status closed
+[2026-08-29 03:44:50] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20princess_connect! ...
+------------------------------------------------------------------------
+[2026-08-29 03:44:50] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-29 03:44:50] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20princess_connect!
+[2026-08-29 03:44:50] INFO FlareSolverr: HTTP closed, response 0 bytes
+[2026-08-29 03:44:50] ERROR FlareSolverr returned status closed
