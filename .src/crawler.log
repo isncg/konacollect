@@ -24500,3 +24500,24 @@
 [2026-08-31 18:13:36] INFO FlareSolverr: HTTP 200, response 124052 bytes
 [2026-08-31 18:13:36] INFO FlareSolverr: solved, status=200.0, body=116876 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":405104,"tags":"aemeath_(wuthering_waves) aliasing ball beach black_eyes blush bow breasts cape chain chisa_(wuthering_waves) choker clouds denia_(wuthering_waves) food garter gloves gray_hair group halo headband long_hair mornye_(wuthering_waves) navel necklace nipples nude pink_eyes pink_hair ponytail purple_eyes pussy red_eyes ru_zhai shade sky sunglasses uncensored water wet wristwear wuthering_waves yellow_eyes","created_at":1781466344,"updated_at":1781821576,"creator_id":181250,"appro
+[2026-08-31 22:51:56] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20touhou ...
+------------------------------------------------------------------------
+[2026-08-31 22:51:56] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-31 22:51:56] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20touhou
+[2026-08-31 22:51:58] INFO FlareSolverr: HTTP 200, response 205173 bytes
+[2026-08-31 22:51:58] INFO FlareSolverr: solved, status=200.0, body=193328 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407887,"tags":"black_hair chinese_clothes chinese_dress close dress elbow_gloves flowers gloves long_hair purple_eyes shimiya_jin touhou white yomotsu_hisami","created_at":1788120026,"updated_at":1788120040,"creator_id":73632,"approver_id":null,"author":"otaku_emmy","change":2521523,"source":"https://www.pixiv.net/en/artworks/147571021","score":18,"md5":"fc7a618a9f5c2ad3c3be363c5c0ac6c9","file_size":4197731,"file_ext":"png","file_url":"https://konachan.com/image/fc7a618a9f5c2ad3c3be363c5c0
+[2026-08-31 22:51:58] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20touhou ...
+------------------------------------------------------------------------
+[2026-08-31 22:51:58] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-31 22:51:58] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20touhou
+[2026-08-31 22:51:59] INFO FlareSolverr: HTTP 200, response 205287 bytes
+[2026-08-31 22:51:59] INFO FlareSolverr: solved, status=200.0, body=193434 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":407587,"tags":"blush bra braids breasts cleavage feathers gray_hair kishin_sagume navel panties pink_eyes sarasadou_dan short_hair touhou underwear wings","created_at":1787491574,"updated_at":1787782356,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2520313,"source":"https://www.pixiv.net/en/artworks/148790784","score":35,"md5":"98a1355e8c2b35c0098be86b3f103f20","file_size":2176323,"file_ext":"png","file_url":"https://konachan.com/image/98a1355e8c2b35c0098be86b3
+[2026-08-31 22:51:59] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20touhou ...
+------------------------------------------------------------------------
+[2026-08-31 22:51:59] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-08-31 22:51:59] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20touhou
+[2026-08-31 22:52:01] INFO FlareSolverr: HTTP 200, response 204686 bytes
+[2026-08-31 22:52:01] INFO FlareSolverr: solved, status=200.0, body=192837 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":396874,"tags":"anus ass bed blush breasts brown_eyes brown_hair hat himekaidou_hatate kneehighs long_hair nipples nironiro panties panty_pull phone pointed_ears pussy pussy_juice skirt skirt_lift topless touhou twintails uncensored underwear","created_at":1765800607,"updated_at":1766094181,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2465293,"source":"","score":119,"md5":"e16d28df38d9f5aa608686d7af7954cb","file_size":5205628,"file_ext":"jpg","file_url":"https:
