@@ -25256,3 +25256,24 @@
 [2026-09-05 17:36:06] INFO FlareSolverr: HTTP 200, response 616 bytes
 [2026-09-05 17:36:06] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-09-05 19:26:44] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20sword_art_online ...
+------------------------------------------------------------------------
+[2026-09-05 19:26:44] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-09-05 19:26:44] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20sword_art_online
+[2026-09-05 19:26:45] INFO FlareSolverr: HTTP 200, response 200757 bytes
+[2026-09-05 19:26:45] INFO FlareSolverr: solved, status=200.0, body=188864 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":404843,"tags":"animal animal_ears aqua_eyes ass atdan ball beach bikini bird blonde_hair blue_hair bow braids breasts brown_hair catgirl cat_smile choker cleavage clouds crossover fairy fang flowers gloves green_eyes group hat hood ichihime_(majsoul) kirigaya_kazuto leafa leaves logo long_hair mahjong_soul male petals pointed_ears ponytail popsicle red_eyes ribbons see_through shinon_(sao) short_hair shorts sky sunglasses swim_ring swimsuit sword_art_online tail umbrella wings wink wristwe
+[2026-09-05 19:26:45] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20sword_art_online ...
+------------------------------------------------------------------------
+[2026-09-05 19:26:45] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-09-05 19:26:45] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20sword_art_online
+[2026-09-05 19:26:47] INFO FlareSolverr: HTTP 200, response 197972 bytes
+[2026-09-05 19:26:47] INFO FlareSolverr: solved, status=200.0, body=186096 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":406369,"tags":"animal_ears barefoot blush bow braids bunny_ears bunnygirl easonx headband leotard long_hair spread_legs sword_art_online yuuki_asuna","created_at":1784638535,"updated_at":1784901280,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2515121,"source":"https://www.pixiv.net/en/artworks/147459108","score":52,"md5":"513b49d9a9fe33a9f0bd412d07146241","file_size":669022,"file_ext":"jpg","file_url":"https://konachan.com/image/513b49d9a9fe33a9f0bd412d0714624
+[2026-09-05 19:26:47] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20sword_art_online ...
+------------------------------------------------------------------------
+[2026-09-05 19:26:47] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-09-05 19:26:47] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20sword_art_online
+[2026-09-05 19:26:49] INFO FlareSolverr: HTTP 200, response 189722 bytes
+[2026-09-05 19:26:49] INFO FlareSolverr: solved, status=200.0, body=178542 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":403551,"tags":"alice_zuberg ass black_hair blonde_hair blue_eyes braids breasts brown_eyes brown_hair censored glasses gray_eyes group headband indy_k kirigaya_suguha long_hair navel nipples nude ponytail shinon_(sao) short_hair sword_art_online sword_art_online_alicization yuuki_asuna","created_at":1778587881,"updated_at":1778854181,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2500592,"source":"https://www.pixiv.net/en/artworks/144682234","score":50,"md5":"6b
