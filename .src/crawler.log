@@ -30359,3 +30359,24 @@
 [2026-10-16 09:39:21] INFO FlareSolverr: HTTP 200, response 616 bytes
 [2026-10-16 09:39:21] INFO FlareSolverr: solved, status=200.0, body=165 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[]</pre><div class="json-formatter-container"></div></body></html>
+[2026-10-16 14:14:36] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20ru_zhai ...
+------------------------------------------------------------------------
+[2026-10-16 14:14:36] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-10-16 14:14:36] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20ru_zhai
+[2026-10-16 14:14:37] INFO FlareSolverr: HTTP 200, response 41387 bytes
+[2026-10-16 14:14:37] INFO FlareSolverr: solved, status=200.0, body=38660 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":405102,"tags":"aemeath_(wuthering_waves) aliasing ball beach bikini black_eyes blush bow breasts cape chain chisa_(wuthering_waves) choker cleavage clouds denia_(wuthering_waves) food garter gloves gray_hair group halo headband long_hair mornye_(wuthering_waves) navel necklace pink_eyes pink_hair ponytail purple_eyes red_eyes ru_zhai shade sky sunglasses swimsuit water wet wink wristwear wuthering_waves yellow_eyes","created_at":1781466307,"updated_at":1781625734,"creator_id":181250,"appro
+[2026-10-16 14:14:37] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20ru_zhai ...
+------------------------------------------------------------------------
+[2026-10-16 14:14:37] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-10-16 14:14:37] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20ru_zhai
+[2026-10-16 14:14:39] INFO FlareSolverr: HTTP 200, response 114257 bytes
+[2026-10-16 14:14:39] INFO FlareSolverr: solved, status=200.0, body=107419 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":409495,"tags":"blush bow breasts chain denia_(wuthering_waves) headband long_hair onsen pink_hair ru_zhai towel water wet wuthering_waves","created_at":1791722759,"updated_at":1791892975,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2528102,"source":"","score":36,"md5":"551b70020a0ec30c032193fdf13d5dad","file_size":13533180,"file_ext":"jpg","file_url":"https://konachan.com/image/551b70020a0ec30c032193fdf13d5dad/Konachan.com%20-%20409495%20blush%20bow%20breasts%
+[2026-10-16 14:14:39] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20ru_zhai ...
+------------------------------------------------------------------------
+[2026-10-16 14:14:39] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-10-16 14:14:39] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20ru_zhai
+[2026-10-16 14:14:40] INFO FlareSolverr: HTTP 200, response 142166 bytes
+[2026-10-16 14:14:40] INFO FlareSolverr: solved, status=200.0, body=133964 bytes
+<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":409503,"tags":"blush bow breasts chain choker cum denia_(wuthering_waves) headband long_hair navel nipples nude onsen pink_hair pussy ru_zhai uncensored water wet wuthering_waves","created_at":1791724627,"updated_at":1791980076,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2528472,"source":"","score":30,"md5":"06ee28123eb9578bb627a210063f1441","file_size":13243231,"file_ext":"jpg","file_url":"https://konachan.com/image/06ee28123eb9578bb627a210063f1441/Konachan.
