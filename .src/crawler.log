@@ -33821,3 +33821,21 @@
 [2026-11-19 07:31:16] INFO FlareSolverr: HTTP 200, response 206175 bytes
 [2026-11-19 07:31:16] INFO FlareSolverr: solved, status=200.0, body=194317 bytes
 <html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>[{"id":409607,"tags":"animal_ears blonde_hair blush breasts dildo faelynn_(girls_frontline_2) g41_(girls_frontline) girls_frontline girls_frontline_2 long_hair masturbation navel nipples nude pussy pussy_juice red_eyes spread_legs tagme_(artist) uncensored","created_at":1791926655,"updated_at":1792272534,"creator_id":181250,"approver_id":null,"author":"BattlequeenYume","change":2528443,"source":"https://www.pixiv.net/en/artworks/150827871","score":146,"md5":"3c2a5f64c73a74abcc317b35a891731a","fil
+[2026-11-19 16:45:39] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20natsumoka ...
+------------------------------------------------------------------------
+[2026-11-19 16:45:39] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-11-19 16:45:39] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20natsumoka
+[2026-11-19 16:45:40] INFO FlareSolverr: HTTP 500, response 259 bytes
+[2026-11-19 16:45:40] ERROR FlareSolverr returned status 500
+[2026-11-19 16:45:40] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20natsumoka ...
+------------------------------------------------------------------------
+[2026-11-19 16:45:40] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-11-19 16:45:40] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20natsumoka
+[2026-11-19 16:45:41] INFO FlareSolverr: HTTP 500, response 259 bytes
+[2026-11-19 16:45:41] ERROR FlareSolverr returned status 500
+[2026-11-19 16:45:41] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20natsumoka ...
+------------------------------------------------------------------------
+[2026-11-19 16:45:41] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-11-19 16:45:41] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20natsumoka
+[2026-11-19 16:45:42] INFO FlareSolverr: HTTP 500, response 259 bytes
+[2026-11-19 16:45:42] ERROR FlareSolverr returned status 500
