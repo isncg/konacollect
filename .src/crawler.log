@@ -33839,3 +33839,21 @@
 [2026-11-19 16:45:41] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20natsumoka
 [2026-11-19 16:45:42] INFO FlareSolverr: HTTP 500, response 259 bytes
 [2026-11-19 16:45:42] ERROR FlareSolverr returned status 500
+[2026-11-19 23:16:03] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:safe%20granblue_fantasy ...
+------------------------------------------------------------------------
+[2026-11-19 23:16:03] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-11-19 23:16:03] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:safe%20granblue_fantasy
+[2026-11-19 23:16:04] INFO FlareSolverr: HTTP 500, response 259 bytes
+[2026-11-19 23:16:04] ERROR FlareSolverr returned status 500
+[2026-11-19 23:16:04] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20granblue_fantasy ...
+------------------------------------------------------------------------
+[2026-11-19 23:16:04] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-11-19 23:16:04] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:questionable%20granblue_fantasy
+[2026-11-19 23:16:05] INFO FlareSolverr: HTTP 500, response 259 bytes
+[2026-11-19 23:16:05] ERROR FlareSolverr returned status 500
+[2026-11-19 23:16:05] INFO FlareSolverr: solving challenge for https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20granblue_fantasy ...
+------------------------------------------------------------------------
+[2026-11-19 23:16:05] INFO FlareSolverr: POST http://localhost:8191/v1
+[2026-11-19 23:16:05] INFO   target: https://www.konachan.com/post.json?limit=100&tags=rating:explicit%20granblue_fantasy
+[2026-11-19 23:16:06] INFO FlareSolverr: HTTP 500, response 259 bytes
+[2026-11-19 23:16:06] ERROR FlareSolverr returned status 500
